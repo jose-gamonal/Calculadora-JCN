@@ -4,6 +4,7 @@ namespace Calculadora_JCN
 {
     public partial class Form1 : Form
     {
+
         public Form1()
         {
             InitializeComponent();
@@ -18,8 +19,19 @@ namespace Calculadora_JCN
         //função-mestra. chamar ela para calcular a expressao
         private double calc()
         {
-            double res = Convert.ToDouble(new DataTable.Compute(expressao, null));
+            string expressao = "1+66";
+            double res = Convert.ToDouble(new DataTable().Compute(expressao, null));
             return res;
+        }
+
+        private void btnigual_Click(object sender, EventArgs e)
+        {
+            txtmain.Text = calc().ToString();
+        }
+
+        private void txtmain_TextChanged(object sender, EventArgs e)
+        {
+            calc().ToString();
         }
 
         //adicionar 

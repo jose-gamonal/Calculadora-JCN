@@ -38,31 +38,31 @@
             button7 = new Button();
             button8 = new Button();
             button9 = new Button();
-            button10 = new Button();
+            btnigual = new Button();
             txtmain = new RichTextBox();
-            button11 = new Button();
+            btnopen = new Button();
             button12 = new Button();
-            button13 = new Button();
-            button14 = new Button();
-            button15 = new Button();
-            button16 = new Button();
-            button17 = new Button();
-            button18 = new Button();
-            button19 = new Button();
-            button20 = new Button();
-            button21 = new Button();
+            btnce = new Button();
+            btnmais = new Button();
+            btnmenos = new Button();
+            btnmult = new Button();
+            btndiv = new Button();
+            btnposneg = new Button();
+            btnclose = new Button();
+            btnpot = new Button();
+            btnfat = new Button();
             btnmusica = new Button();
-            button23 = new Button();
+            btnraiz = new Button();
             lblcalculo = new Label();
-            button24 = new Button();
-            button25 = new Button();
+            btnhistory = new Button();
+            btnvir = new Button();
             lblmusica = new Label();
             SuspendLayout();
             // 
             // button0
             // 
-            button0.Font = new Font("Unispace", 12F, FontStyle.Bold);
-            button0.Location = new Point(101, 383);
+            button0.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold);
+            button0.Location = new Point(99, 389);
             button0.Name = "button0";
             button0.Size = new Size(67, 65);
             button0.TabIndex = 0;
@@ -72,8 +72,8 @@
             // 
             // button1
             // 
-            button1.Font = new Font("Unispace", 12F, FontStyle.Bold);
-            button1.Location = new Point(29, 311);
+            button1.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold);
+            button1.Location = new Point(27, 317);
             button1.Name = "button1";
             button1.Size = new Size(67, 66);
             button1.TabIndex = 1;
@@ -83,8 +83,8 @@
             // 
             // button2
             // 
-            button2.Font = new Font("Unispace", 12F, FontStyle.Bold);
-            button2.Location = new Point(101, 311);
+            button2.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold);
+            button2.Location = new Point(99, 317);
             button2.Name = "button2";
             button2.Size = new Size(67, 66);
             button2.TabIndex = 2;
@@ -94,8 +94,8 @@
             // 
             // button3
             // 
-            button3.Font = new Font("Unispace", 12F, FontStyle.Bold);
-            button3.Location = new Point(174, 311);
+            button3.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold);
+            button3.Location = new Point(172, 317);
             button3.Name = "button3";
             button3.Size = new Size(67, 66);
             button3.TabIndex = 3;
@@ -105,8 +105,8 @@
             // 
             // button4
             // 
-            button4.Font = new Font("Unispace", 12F, FontStyle.Bold);
-            button4.Location = new Point(29, 239);
+            button4.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold);
+            button4.Location = new Point(27, 245);
             button4.Name = "button4";
             button4.Size = new Size(67, 66);
             button4.TabIndex = 4;
@@ -116,8 +116,8 @@
             // 
             // button5
             // 
-            button5.Font = new Font("Unispace", 12F, FontStyle.Bold);
-            button5.Location = new Point(101, 239);
+            button5.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold);
+            button5.Location = new Point(99, 245);
             button5.Name = "button5";
             button5.Size = new Size(67, 66);
             button5.TabIndex = 5;
@@ -127,8 +127,8 @@
             // 
             // button6
             // 
-            button6.Font = new Font("Unispace", 12F, FontStyle.Bold);
-            button6.Location = new Point(174, 239);
+            button6.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold);
+            button6.Location = new Point(172, 245);
             button6.Name = "button6";
             button6.Size = new Size(67, 66);
             button6.TabIndex = 6;
@@ -138,8 +138,8 @@
             // 
             // button7
             // 
-            button7.Font = new Font("Unispace", 12F, FontStyle.Bold);
-            button7.Location = new Point(29, 167);
+            button7.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold);
+            button7.Location = new Point(27, 173);
             button7.Name = "button7";
             button7.Size = new Size(67, 66);
             button7.TabIndex = 7;
@@ -149,8 +149,8 @@
             // 
             // button8
             // 
-            button8.Font = new Font("Unispace", 12F, FontStyle.Bold);
-            button8.Location = new Point(101, 167);
+            button8.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold);
+            button8.Location = new Point(99, 173);
             button8.Name = "button8";
             button8.Size = new Size(67, 66);
             button8.TabIndex = 8;
@@ -160,8 +160,8 @@
             // 
             // button9
             // 
-            button9.Font = new Font("Unispace", 12F, FontStyle.Bold);
-            button9.Location = new Point(174, 167);
+            button9.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold);
+            button9.Location = new Point(172, 173);
             button9.Name = "button9";
             button9.Size = new Size(67, 66);
             button9.TabIndex = 9;
@@ -169,39 +169,41 @@
             button9.Text = "9";
             button9.UseVisualStyleBackColor = true;
             // 
-            // button10
+            // btnigual
             // 
-            button10.Font = new Font("Tw Cen MT", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button10.Location = new Point(328, 381);
-            button10.Name = "button10";
-            button10.Size = new Size(75, 66);
-            button10.TabIndex = 10;
-            button10.TabStop = false;
-            button10.Text = "=";
-            button10.UseVisualStyleBackColor = true;
+            btnigual.Font = new Font("Tw Cen MT", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnigual.Location = new Point(326, 387);
+            btnigual.Name = "btnigual";
+            btnigual.Size = new Size(75, 66);
+            btnigual.TabIndex = 10;
+            btnigual.TabStop = false;
+            btnigual.Text = "=";
+            btnigual.UseVisualStyleBackColor = true;
+            btnigual.Click += btnigual_Click;
             // 
             // txtmain
             // 
-            txtmain.Location = new Point(29, 32);
+            txtmain.Location = new Point(27, 38);
             txtmain.Name = "txtmain";
             txtmain.Size = new Size(374, 96);
             txtmain.TabIndex = 12;
             txtmain.Text = "";
+            txtmain.TextChanged += txtmain_TextChanged;
             // 
-            // button11
+            // btnopen
             // 
-            button11.Location = new Point(29, 138);
-            button11.Name = "button11";
-            button11.Size = new Size(67, 23);
-            button11.TabIndex = 13;
-            button11.TabStop = false;
-            button11.Text = "(";
-            button11.UseVisualStyleBackColor = true;
+            btnopen.Location = new Point(27, 144);
+            btnopen.Name = "btnopen";
+            btnopen.Size = new Size(67, 23);
+            btnopen.TabIndex = 13;
+            btnopen.TabStop = false;
+            btnopen.Text = "(";
+            btnopen.UseVisualStyleBackColor = true;
             // 
             // button12
             // 
             button12.Font = new Font("Segoe UI", 7F);
-            button12.Location = new Point(174, 138);
+            button12.Location = new Point(172, 144);
             button12.Name = "button12";
             button12.Size = new Size(67, 23);
             button12.TabIndex = 14;
@@ -209,108 +211,108 @@
             button12.Text = "Backspace";
             button12.UseVisualStyleBackColor = true;
             // 
-            // button13
+            // btnce
             // 
-            button13.Font = new Font("Segoe UI", 7F);
-            button13.Location = new Point(247, 138);
-            button13.Name = "button13";
-            button13.Size = new Size(75, 23);
-            button13.TabIndex = 15;
-            button13.TabStop = false;
-            button13.Text = "Clear";
-            button13.UseVisualStyleBackColor = true;
+            btnce.Font = new Font("Segoe UI", 7F);
+            btnce.Location = new Point(245, 144);
+            btnce.Name = "btnce";
+            btnce.Size = new Size(75, 23);
+            btnce.TabIndex = 15;
+            btnce.TabStop = false;
+            btnce.Text = "Clear";
+            btnce.UseVisualStyleBackColor = true;
             // 
-            // button14
+            // btnmais
             // 
-            button14.Font = new Font("Tw Cen MT", 12F);
-            button14.Location = new Point(247, 167);
-            button14.Name = "button14";
-            button14.Size = new Size(75, 66);
-            button14.TabIndex = 16;
-            button14.TabStop = false;
-            button14.Text = "+";
-            button14.UseVisualStyleBackColor = true;
+            btnmais.Font = new Font("Tw Cen MT", 12F);
+            btnmais.Location = new Point(245, 173);
+            btnmais.Name = "btnmais";
+            btnmais.Size = new Size(75, 66);
+            btnmais.TabIndex = 16;
+            btnmais.TabStop = false;
+            btnmais.Text = "+";
+            btnmais.UseVisualStyleBackColor = true;
             // 
-            // button15
+            // btnmenos
             // 
-            button15.Font = new Font("Tw Cen MT", 14F);
-            button15.Location = new Point(247, 240);
-            button15.Name = "button15";
-            button15.Size = new Size(75, 66);
-            button15.TabIndex = 17;
-            button15.TabStop = false;
-            button15.Text = "-";
-            button15.UseVisualStyleBackColor = true;
+            btnmenos.Font = new Font("Tw Cen MT", 14F);
+            btnmenos.Location = new Point(245, 246);
+            btnmenos.Name = "btnmenos";
+            btnmenos.Size = new Size(75, 66);
+            btnmenos.TabIndex = 17;
+            btnmenos.TabStop = false;
+            btnmenos.Text = "-";
+            btnmenos.UseVisualStyleBackColor = true;
             // 
-            // button16
+            // btnmult
             // 
-            button16.Font = new Font("Tw Cen MT", 10F);
-            button16.Location = new Point(247, 310);
-            button16.Name = "button16";
-            button16.Size = new Size(75, 66);
-            button16.TabIndex = 18;
-            button16.TabStop = false;
-            button16.Text = "x";
-            button16.UseVisualStyleBackColor = true;
+            btnmult.Font = new Font("Tw Cen MT", 10F);
+            btnmult.Location = new Point(245, 316);
+            btnmult.Name = "btnmult";
+            btnmult.Size = new Size(75, 66);
+            btnmult.TabIndex = 18;
+            btnmult.TabStop = false;
+            btnmult.Text = "x";
+            btnmult.UseVisualStyleBackColor = true;
             // 
-            // button17
+            // btndiv
             // 
-            button17.Font = new Font("Tw Cen MT", 10F);
-            button17.Location = new Point(247, 382);
-            button17.Name = "button17";
-            button17.Size = new Size(75, 65);
-            button17.TabIndex = 19;
-            button17.TabStop = false;
-            button17.Text = "/";
-            button17.UseVisualStyleBackColor = true;
+            btndiv.Font = new Font("Tw Cen MT", 10F);
+            btndiv.Location = new Point(245, 388);
+            btndiv.Name = "btndiv";
+            btndiv.Size = new Size(75, 65);
+            btndiv.TabIndex = 19;
+            btndiv.TabStop = false;
+            btndiv.Text = "/";
+            btndiv.UseVisualStyleBackColor = true;
             // 
-            // button18
+            // btnposneg
             // 
-            button18.Font = new Font("Tw Cen MT", 10F);
-            button18.Location = new Point(29, 383);
-            button18.Name = "button18";
-            button18.Size = new Size(67, 65);
-            button18.TabIndex = 20;
-            button18.TabStop = false;
-            button18.Text = "+/-";
-            button18.UseVisualStyleBackColor = true;
+            btnposneg.Font = new Font("Tw Cen MT", 10F);
+            btnposneg.Location = new Point(27, 389);
+            btnposneg.Name = "btnposneg";
+            btnposneg.Size = new Size(67, 65);
+            btnposneg.TabIndex = 20;
+            btnposneg.TabStop = false;
+            btnposneg.Text = "+/-";
+            btnposneg.UseVisualStyleBackColor = true;
             // 
-            // button19
+            // btnclose
             // 
-            button19.Location = new Point(101, 138);
-            button19.Name = "button19";
-            button19.Size = new Size(67, 23);
-            button19.TabIndex = 21;
-            button19.TabStop = false;
-            button19.Text = ")";
-            button19.UseVisualStyleBackColor = true;
+            btnclose.Location = new Point(99, 144);
+            btnclose.Name = "btnclose";
+            btnclose.Size = new Size(67, 23);
+            btnclose.TabIndex = 21;
+            btnclose.TabStop = false;
+            btnclose.Text = ")";
+            btnclose.UseVisualStyleBackColor = true;
             // 
-            // button20
+            // btnpot
             // 
-            button20.Font = new Font("Tw Cen MT", 10F);
-            button20.Location = new Point(328, 240);
-            button20.Name = "button20";
-            button20.Size = new Size(75, 66);
-            button20.TabIndex = 22;
-            button20.TabStop = false;
-            button20.Text = "x^x";
-            button20.UseVisualStyleBackColor = true;
+            btnpot.Font = new Font("Tw Cen MT", 10F);
+            btnpot.Location = new Point(326, 246);
+            btnpot.Name = "btnpot";
+            btnpot.Size = new Size(75, 66);
+            btnpot.TabIndex = 22;
+            btnpot.TabStop = false;
+            btnpot.Text = "x^x";
+            btnpot.UseVisualStyleBackColor = true;
             // 
-            // button21
+            // btnfat
             // 
-            button21.Font = new Font("Tw Cen MT", 11F);
-            button21.Location = new Point(328, 167);
-            button21.Name = "button21";
-            button21.Size = new Size(75, 66);
-            button21.TabIndex = 23;
-            button21.TabStop = false;
-            button21.Text = "x!";
-            button21.UseVisualStyleBackColor = true;
+            btnfat.Font = new Font("Tw Cen MT", 11F);
+            btnfat.Location = new Point(326, 173);
+            btnfat.Name = "btnfat";
+            btnfat.Size = new Size(75, 66);
+            btnfat.TabIndex = 23;
+            btnfat.TabStop = false;
+            btnfat.Text = "x!";
+            btnfat.UseVisualStyleBackColor = true;
             // 
             // btnmusica
             // 
             btnmusica.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnmusica.Location = new Point(30, 4);
+            btnmusica.Location = new Point(28, 10);
             btnmusica.Name = "btnmusica";
             btnmusica.Size = new Size(36, 26);
             btnmusica.TabIndex = 24;
@@ -318,52 +320,52 @@
             btnmusica.Text = "🔊";
             btnmusica.UseVisualStyleBackColor = true;
             // 
-            // button23
+            // btnraiz
             // 
-            button23.Font = new Font("Tw Cen MT", 10F);
-            button23.Location = new Point(328, 310);
-            button23.Name = "button23";
-            button23.Size = new Size(75, 65);
-            button23.TabIndex = 25;
-            button23.TabStop = false;
-            button23.Text = "√x";
-            button23.UseVisualStyleBackColor = true;
+            btnraiz.Font = new Font("Tw Cen MT", 10F);
+            btnraiz.Location = new Point(326, 316);
+            btnraiz.Name = "btnraiz";
+            btnraiz.Size = new Size(75, 65);
+            btnraiz.TabIndex = 25;
+            btnraiz.TabStop = false;
+            btnraiz.Text = "√x";
+            btnraiz.UseVisualStyleBackColor = true;
             // 
             // lblcalculo
             // 
             lblcalculo.AutoSize = true;
-            lblcalculo.Location = new Point(326, 11);
+            lblcalculo.Location = new Point(324, 17);
             lblcalculo.Name = "lblcalculo";
             lblcalculo.Size = new Size(78, 15);
             lblcalculo.TabIndex = 26;
             lblcalculo.Text = "Cálculo Atual";
             // 
-            // button24
+            // btnhistory
             // 
-            button24.Font = new Font("Segoe UI", 7F);
-            button24.Location = new Point(328, 138);
-            button24.Name = "button24";
-            button24.Size = new Size(75, 23);
-            button24.TabIndex = 27;
-            button24.TabStop = false;
-            button24.Text = "Histórico";
-            button24.UseVisualStyleBackColor = true;
+            btnhistory.Font = new Font("Segoe UI", 7F);
+            btnhistory.Location = new Point(326, 144);
+            btnhistory.Name = "btnhistory";
+            btnhistory.Size = new Size(75, 23);
+            btnhistory.TabIndex = 27;
+            btnhistory.TabStop = false;
+            btnhistory.Text = "Histórico";
+            btnhistory.UseVisualStyleBackColor = true;
             // 
-            // button25
+            // btnvir
             // 
-            button25.Font = new Font("Tw Cen MT", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button25.Location = new Point(174, 383);
-            button25.Name = "button25";
-            button25.Size = new Size(67, 65);
-            button25.TabIndex = 28;
-            button25.TabStop = false;
-            button25.Text = ",";
-            button25.UseVisualStyleBackColor = true;
+            btnvir.Font = new Font("Tw Cen MT", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnvir.Location = new Point(172, 389);
+            btnvir.Name = "btnvir";
+            btnvir.Size = new Size(67, 65);
+            btnvir.TabIndex = 28;
+            btnvir.TabStop = false;
+            btnvir.Text = ",";
+            btnvir.UseVisualStyleBackColor = true;
             // 
             // lblmusica
             // 
             lblmusica.AutoSize = true;
-            lblmusica.Location = new Point(68, 9);
+            lblmusica.Location = new Point(66, 15);
             lblmusica.Name = "lblmusica";
             lblmusica.Size = new Size(29, 15);
             lblmusica.TabIndex = 29;
@@ -373,26 +375,26 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(435, 482);
+            ClientSize = new Size(429, 472);
             Controls.Add(lblmusica);
-            Controls.Add(button25);
-            Controls.Add(button24);
+            Controls.Add(btnvir);
+            Controls.Add(btnhistory);
             Controls.Add(lblcalculo);
-            Controls.Add(button23);
+            Controls.Add(btnraiz);
             Controls.Add(btnmusica);
-            Controls.Add(button21);
-            Controls.Add(button20);
-            Controls.Add(button19);
-            Controls.Add(button18);
-            Controls.Add(button17);
-            Controls.Add(button16);
-            Controls.Add(button15);
-            Controls.Add(button14);
-            Controls.Add(button13);
+            Controls.Add(btnfat);
+            Controls.Add(btnpot);
+            Controls.Add(btnclose);
+            Controls.Add(btnposneg);
+            Controls.Add(btndiv);
+            Controls.Add(btnmult);
+            Controls.Add(btnmenos);
+            Controls.Add(btnmais);
+            Controls.Add(btnce);
             Controls.Add(button12);
-            Controls.Add(button11);
+            Controls.Add(btnopen);
             Controls.Add(txtmain);
-            Controls.Add(button10);
+            Controls.Add(btnigual);
             Controls.Add(button9);
             Controls.Add(button8);
             Controls.Add(button7);
@@ -421,24 +423,24 @@
         private Button button7;
         private Button button8;
         private Button button9;
-        private Button button10;
+        private Button btnigual;
         private RichTextBox txtmain;
-        private Button button11;
+        private Button btnopen;
         private Button button12;
-        private Button button13;
-        private Button button14;
-        private Button button15;
-        private Button button16;
-        private Button button17;
-        private Button button18;
-        private Button button19;
-        private Button button20;
-        private Button button21;
+        private Button btnce;
+        private Button btnmais;
+        private Button btnmenos;
+        private Button btnmult;
+        private Button btndiv;
+        private Button btnposneg;
+        private Button btnclose;
+        private Button btnpot;
+        private Button btnfat;
         private Button btnmusica;
-        private Button button23;
+        private Button btnraiz;
         private Label lblcalculo;
-        private Button button24;
-        private Button button25;
+        private Button btnhistory;
+        private Button btnvir;
         private Label lblmusica;
     }
 }

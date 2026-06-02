@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eGTnMszT1W8=",
+  "dgSpecHash": "rZAKKhh8h2P7NDh7FRVaTSY6j3y5Awyghc4uwBgt+Bot3T3aFc2ZaFhXKyPMgJQoYWg3mgrT4Ww+GQV0a6jLIQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Gamonal\\Documents\\GitHub\\Calculadora-JCN\\Calculadora JCN\\Calculadora JCN\\Calculadora JCN.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Gamonal\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.27\\microsoft.windowsdesktop.app.ref.8.0.27.nupkg.sha512",
-    "C:\\Users\\Gamonal\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.27\\microsoft.netcore.app.ref.8.0.27.nupkg.sha512",
-    "C:\\Users\\Gamonal\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.27\\microsoft.aspnetcore.app.ref.8.0.27.nupkg.sha512",
-    "C:\\Users\\Gamonal\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.27\\microsoft.netcore.app.host.win-x64.8.0.27.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\LABSC3\\Desktop\\Calculadora-JCN\\Calculadora JCN\\Calculadora JCN\\Calculadora JCN.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }
