@@ -14,11 +14,11 @@ namespace Calculadora_JCN
         {
             txtmain.Focus();
         }
-        
+
         //função-mestra. chamar ela para calcular a expressao
         private double calc()
         {
-            double res = Convert.ToDouble(new DataTable.Compute(expressao,null));
+            double res = Convert.ToDouble(new DataTable.Compute(expressao, null));
             return res;
         }
 
