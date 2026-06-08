@@ -41,7 +41,7 @@
             btnigual = new Button();
             txtmain = new RichTextBox();
             btnopen = new Button();
-            button12 = new Button();
+            btnbspc = new Button();
             btnce = new Button();
             btnmais = new Button();
             btnmenos = new Button();
@@ -53,7 +53,6 @@
             btnfat = new Button();
             btnmusica = new Button();
             btnraiz = new Button();
-            lblcalculo = new Label();
             btnhistory = new Button();
             btnvir = new Button();
             lblmusica = new Label();
@@ -69,6 +68,7 @@
             button0.TabStop = false;
             button0.Text = "0";
             button0.UseVisualStyleBackColor = true;
+            button0.Click += button0_Click;
             // 
             // button1
             // 
@@ -80,6 +80,7 @@
             button1.TabStop = false;
             button1.Text = "1";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // button2
             // 
@@ -91,6 +92,7 @@
             button2.TabStop = false;
             button2.Text = "2";
             button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // button3
             // 
@@ -102,6 +104,7 @@
             button3.TabStop = false;
             button3.Text = "3";
             button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
             // 
             // button4
             // 
@@ -113,6 +116,7 @@
             button4.TabStop = false;
             button4.Text = "4";
             button4.UseVisualStyleBackColor = true;
+            button4.Click += button4_Click;
             // 
             // button5
             // 
@@ -124,6 +128,7 @@
             button5.TabStop = false;
             button5.Text = "5";
             button5.UseVisualStyleBackColor = true;
+            button5.Click += button5_Click;
             // 
             // button6
             // 
@@ -135,6 +140,7 @@
             button6.TabStop = false;
             button6.Text = "6";
             button6.UseVisualStyleBackColor = true;
+            button6.Click += button6_Click;
             // 
             // button7
             // 
@@ -146,6 +152,7 @@
             button7.TabStop = false;
             button7.Text = "7";
             button7.UseVisualStyleBackColor = true;
+            button7.Click += button7_Click;
             // 
             // button8
             // 
@@ -157,6 +164,7 @@
             button8.TabStop = false;
             button8.Text = "8";
             button8.UseVisualStyleBackColor = true;
+            button8.Click += button8_Click;
             // 
             // button9
             // 
@@ -168,6 +176,7 @@
             button9.TabStop = false;
             button9.Text = "9";
             button9.UseVisualStyleBackColor = true;
+            button9.Click += button9_Click;
             // 
             // btnigual
             // 
@@ -188,7 +197,6 @@
             txtmain.Size = new Size(374, 96);
             txtmain.TabIndex = 12;
             txtmain.Text = "";
-            txtmain.TextChanged += txtmain_TextChanged;
             // 
             // btnopen
             // 
@@ -199,17 +207,19 @@
             btnopen.TabStop = false;
             btnopen.Text = "(";
             btnopen.UseVisualStyleBackColor = true;
+            btnopen.Click += btnopen_Click;
             // 
-            // button12
+            // btnbspc
             // 
-            button12.Font = new Font("Segoe UI", 7F);
-            button12.Location = new Point(172, 144);
-            button12.Name = "button12";
-            button12.Size = new Size(67, 23);
-            button12.TabIndex = 14;
-            button12.TabStop = false;
-            button12.Text = "Backspace";
-            button12.UseVisualStyleBackColor = true;
+            btnbspc.Font = new Font("Segoe UI", 7F);
+            btnbspc.Location = new Point(172, 144);
+            btnbspc.Name = "btnbspc";
+            btnbspc.Size = new Size(67, 23);
+            btnbspc.TabIndex = 14;
+            btnbspc.TabStop = false;
+            btnbspc.Text = "Backspace";
+            btnbspc.UseVisualStyleBackColor = true;
+            btnbspc.Click += btnbspc_Click;
             // 
             // btnce
             // 
@@ -221,6 +231,7 @@
             btnce.TabStop = false;
             btnce.Text = "Clear";
             btnce.UseVisualStyleBackColor = true;
+            btnce.Click += btnce_Click;
             // 
             // btnmais
             // 
@@ -232,6 +243,7 @@
             btnmais.TabStop = false;
             btnmais.Text = "+";
             btnmais.UseVisualStyleBackColor = true;
+            btnmais.Click += btnmais_Click;
             // 
             // btnmenos
             // 
@@ -243,6 +255,7 @@
             btnmenos.TabStop = false;
             btnmenos.Text = "-";
             btnmenos.UseVisualStyleBackColor = true;
+            btnmenos.Click += btnmenos_Click;
             // 
             // btnmult
             // 
@@ -254,6 +267,7 @@
             btnmult.TabStop = false;
             btnmult.Text = "x";
             btnmult.UseVisualStyleBackColor = true;
+            btnmult.Click += btnmult_Click;
             // 
             // btndiv
             // 
@@ -265,6 +279,7 @@
             btndiv.TabStop = false;
             btndiv.Text = "/";
             btndiv.UseVisualStyleBackColor = true;
+            btndiv.Click += btndiv_Click;
             // 
             // btnposneg
             // 
@@ -276,6 +291,7 @@
             btnposneg.TabStop = false;
             btnposneg.Text = "+/-";
             btnposneg.UseVisualStyleBackColor = true;
+            btnposneg.Click += btnposneg_Click;
             // 
             // btnclose
             // 
@@ -286,6 +302,7 @@
             btnclose.TabStop = false;
             btnclose.Text = ")";
             btnclose.UseVisualStyleBackColor = true;
+            btnclose.Click += btnclose_Click;
             // 
             // btnpot
             // 
@@ -297,6 +314,7 @@
             btnpot.TabStop = false;
             btnpot.Text = "x^x";
             btnpot.UseVisualStyleBackColor = true;
+            btnpot.Click += btnpot_Click;
             // 
             // btnfat
             // 
@@ -308,6 +326,7 @@
             btnfat.TabStop = false;
             btnfat.Text = "x!";
             btnfat.UseVisualStyleBackColor = true;
+            btnfat.Click += btnfat_Click;
             // 
             // btnmusica
             // 
@@ -330,15 +349,7 @@
             btnraiz.TabStop = false;
             btnraiz.Text = "√x";
             btnraiz.UseVisualStyleBackColor = true;
-            // 
-            // lblcalculo
-            // 
-            lblcalculo.AutoSize = true;
-            lblcalculo.Location = new Point(324, 17);
-            lblcalculo.Name = "lblcalculo";
-            lblcalculo.Size = new Size(78, 15);
-            lblcalculo.TabIndex = 26;
-            lblcalculo.Text = "Cálculo Atual";
+            btnraiz.Click += btnraiz_Click;
             // 
             // btnhistory
             // 
@@ -353,14 +364,15 @@
             // 
             // btnvir
             // 
-            btnvir.Font = new Font("Tw Cen MT", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnvir.Font = new Font("Tw Cen MT", 20.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             btnvir.Location = new Point(172, 389);
             btnvir.Name = "btnvir";
             btnvir.Size = new Size(67, 65);
             btnvir.TabIndex = 28;
             btnvir.TabStop = false;
-            btnvir.Text = ",";
+            btnvir.Text = ".";
             btnvir.UseVisualStyleBackColor = true;
+            btnvir.Click += btnvir_Click;
             // 
             // lblmusica
             // 
@@ -379,7 +391,6 @@
             Controls.Add(lblmusica);
             Controls.Add(btnvir);
             Controls.Add(btnhistory);
-            Controls.Add(lblcalculo);
             Controls.Add(btnraiz);
             Controls.Add(btnmusica);
             Controls.Add(btnfat);
@@ -391,7 +402,7 @@
             Controls.Add(btnmenos);
             Controls.Add(btnmais);
             Controls.Add(btnce);
-            Controls.Add(button12);
+            Controls.Add(btnbspc);
             Controls.Add(btnopen);
             Controls.Add(txtmain);
             Controls.Add(btnigual);
@@ -426,7 +437,7 @@
         private Button btnigual;
         private RichTextBox txtmain;
         private Button btnopen;
-        private Button button12;
+        private Button btnbspc;
         private Button btnce;
         private Button btnmais;
         private Button btnmenos;
@@ -438,7 +449,6 @@
         private Button btnfat;
         private Button btnmusica;
         private Button btnraiz;
-        private Label lblcalculo;
         private Button btnhistory;
         private Button btnvir;
         private Label lblmusica;

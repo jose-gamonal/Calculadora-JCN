@@ -4,7 +4,7 @@ namespace Calculadora_JCN
 {
     public partial class Form1 : Form
     {
-
+        string expressao = "";
         public Form1()
         {
             InitializeComponent();
@@ -17,25 +17,176 @@ namespace Calculadora_JCN
         }
 
         //função-mestra. chamar ela para calcular a expressao
-        private double calc()
+        public void calc()
         {
-            string expressao = "1+66";
-            double res = Convert.ToDouble(new DataTable().Compute(expressao, null));
-            return res;
+            double res = Convert.ToDouble(new DataTable().Compute(txtmain.Text, null));
+            txtmain.Text = res.ToString();
+            expressao = "";
+        }
+
+        private void button0_Click(object sender, EventArgs e)
+        {
+            expressao = expressao + 0.ToString();
+            txtmain.Text = expressao.ToString();
+            txtmain.Focus();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            expressao = expressao + 1.ToString();
+            txtmain.Text = expressao.ToString();
+            txtmain.Focus();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            expressao = expressao + 2.ToString();
+            txtmain.Text = expressao.ToString();
+            txtmain.Focus();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            expressao = expressao + 3.ToString();
+            txtmain.Text = expressao.ToString();
+            txtmain.Focus();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            expressao = expressao + 4.ToString();
+            txtmain.Text = expressao.ToString();
+            txtmain.Focus();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            expressao = expressao + 5.ToString();
+            txtmain.Text = expressao.ToString();
+            txtmain.Focus();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            expressao = expressao + 6.ToString();
+            txtmain.Text = expressao.ToString();
+            txtmain.Focus();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            expressao = expressao + 7.ToString();
+            txtmain.Text = expressao.ToString();
+            txtmain.Focus();
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            expressao = expressao + 8.ToString();
+            txtmain.Text = expressao.ToString();
+            txtmain.Focus();
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            expressao = expressao + 9.ToString();
+            txtmain.Text = expressao.ToString();
+            txtmain.Focus();
+        }
+
+        private void btnmais_Click(object sender, EventArgs e)
+        {
+            expressao = expressao + "+";
+            txtmain.Text = expressao.ToString();
+            txtmain.Focus();
+        }
+
+        private void btnmenos_Click(object sender, EventArgs e)
+        {
+            expressao = expressao + "-";
+            txtmain.Text = expressao.ToString();
+            txtmain.Focus();
+        }
+
+        private void btnmult_Click(object sender, EventArgs e)
+        {
+            expressao = expressao + "*";
+            txtmain.Text = expressao.ToString();
+            txtmain.Focus();
+        }
+
+        private void btndiv_Click(object sender, EventArgs e)
+        {
+            expressao = expressao + "/";
+            txtmain.Text = expressao.ToString();
+            txtmain.Focus();
+        }
+
+        private void btnvir_Click(object sender, EventArgs e)
+        {
+            expressao = expressao + ".";
+            txtmain.Text = expressao.ToString();
+            txtmain.Focus();
+        }
+
+        private void btnfat_Click(object sender, EventArgs e)
+        {
+            expressao = expressao + "!";
+            txtmain.Text = expressao.ToString();
+            txtmain.Focus();
+        }
+
+        private void btnpot_Click(object sender, EventArgs e)
+        {
+            txtmain.Focus();
+        }
+
+        private void btnraiz_Click(object sender, EventArgs e)
+        {
+            txtmain.Focus();
+        }
+
+        private void btnposneg_Click(object sender, EventArgs e)
+        {
+            txtmain.Focus();
+        }
+
+        private void btnopen_Click(object sender, EventArgs e)
+        {
+            expressao = expressao + "(";
+            txtmain.Text = expressao.ToString();
+            txtmain.Focus();
+        }
+
+        private void btnclose_Click(object sender, EventArgs e)
+        {
+            expressao = expressao + ")";
+            txtmain.Text = expressao.ToString();
+            txtmain.Focus();
+        }
+
+        private void btnce_Click(object sender, EventArgs e)
+        {
+            expressao = "";
+            txtmain.Focus();
+        }
+
+        private void btnbspc_Click(object sender, EventArgs e)
+        {
+            char[] expressaochar1 = expressao.ToCharArray();
+            char[] expressaochar2;
+            for(int i = 0; i < expressao.Length-1; i++)
+            {
+                expressaochar2[i] = expressaochar1[i];
+            }
+            txtmain.Focus();
         }
 
         private void btnigual_Click(object sender, EventArgs e)
         {
-            txtmain.Text = calc().ToString();
+            calc();
+            txtmain.Focus();
         }
-
-        private void txtmain_TextChanged(object sender, EventArgs e)
-        {
-            calc().ToString();
-        }
-
-        //adicionar 
-        //  txtmain.Focus();
-        //ao fim das lógicas dos botoes para retornar o foco para a caixa de texto assim que fizer o que deve ser feito
     }
 }
+
