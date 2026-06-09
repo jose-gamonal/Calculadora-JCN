@@ -41,7 +41,6 @@
             btnigual = new Button();
             txtmain = new RichTextBox();
             btnopen = new Button();
-            btnbspc = new Button();
             btnce = new Button();
             btnmais = new Button();
             btnmenos = new Button();
@@ -56,6 +55,7 @@
             btnhistory = new Button();
             btnvir = new Button();
             lblmusica = new Label();
+            btnbspc = new Button();
             SuspendLayout();
             // 
             // button0
@@ -208,18 +208,6 @@
             btnopen.Text = "(";
             btnopen.UseVisualStyleBackColor = true;
             btnopen.Click += btnopen_Click;
-            // 
-            // btnbspc
-            // 
-            btnbspc.Font = new Font("Segoe UI", 7F);
-            btnbspc.Location = new Point(172, 144);
-            btnbspc.Name = "btnbspc";
-            btnbspc.Size = new Size(67, 23);
-            btnbspc.TabIndex = 14;
-            btnbspc.TabStop = false;
-            btnbspc.Text = "Backspace";
-            btnbspc.UseVisualStyleBackColor = true;
-            btnbspc.Click += btnbspc_Click;
             // 
             // btnce
             // 
@@ -383,6 +371,18 @@
             lblmusica.TabIndex = 29;
             lblmusica.Text = "Play";
             // 
+            // btnbspc
+            // 
+            btnbspc.Font = new Font("Segoe UI", 7F);
+            btnbspc.Location = new Point(172, 144);
+            btnbspc.Name = "btnbspc";
+            btnbspc.Size = new Size(67, 23);
+            btnbspc.TabIndex = 14;
+            btnbspc.TabStop = false;
+            btnbspc.Text = "Backspace";
+            btnbspc.UseVisualStyleBackColor = true;
+            btnbspc.Click += btnbspc_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -437,7 +437,6 @@
         private Button btnigual;
         private RichTextBox txtmain;
         private Button btnopen;
-        private Button btnbspc;
         private Button btnce;
         private Button btnmais;
         private Button btnmenos;
@@ -452,5 +451,6 @@
         private Button btnhistory;
         private Button btnvir;
         private Label lblmusica;
+        private Button btnbspc;
     }
 }

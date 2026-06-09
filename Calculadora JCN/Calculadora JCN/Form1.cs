@@ -135,7 +135,6 @@ namespace Calculadora_JCN
             txtmain.Text = expressao.ToString();
             txtmain.Focus();
         }
-
         private void btnpot_Click(object sender, EventArgs e)
         {
             double n = Convert.ToDouble(txtmain.Text);
