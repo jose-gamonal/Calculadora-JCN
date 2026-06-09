@@ -1,14 +1,8 @@
 {
   "version": 2,
-<<<<<<< Updated upstream
-  "dgSpecHash": "rBFZNkBA75I=",
+  "dgSpecHash": "kpqdDgWP25Q=",
   "success": true,
-  "projectFilePath": "C:\\Users\\rotec\\OneDrive\\Documentos\\GitHub\\Calculadora-JCN\\Calculadora JCN\\Calculadora JCN\\Calculadora JCN.csproj",
-=======
-  "dgSpecHash": "km2kc+BH2Lc=",
-  "success": true,
-  "projectFilePath": "C:\\Users\\Gamonal\\Documents\\GitHub\\Calculadora-JCN\\Calculadora JCN\\Calculadora JCN\\Calculadora JCN.csproj",
->>>>>>> Stashed changes
+  "projectFilePath": "C:\\Users\\sc2biblio\\Documents\\GitHub\\Calculadora-JCN\\Calculadora JCN\\Calculadora JCN\\Calculadora JCN.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

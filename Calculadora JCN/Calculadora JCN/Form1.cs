@@ -39,6 +39,13 @@ namespace Calculadora_JCN
             {
                 e.Handled = false; //deixar passar
             }
+            else if (e.KeyChar == '=')
+            {
+                e.Handled = true;
+                calc();
+                focus();
+                
+            }
             else
             {
                 e.Handled = true; //não processar; bloquear
@@ -134,55 +141,6 @@ namespace Calculadora_JCN
             focus();
         }
 
-        private void btnvir_Click(object sender, EventArgs e)
-        {
-<<<<<<< Updated upstream
-            expressao = expressao + ".";
-            txtmain.Text = expressao.ToString();
-            focus();
-        }
-
-        private void btnfat_Click(object sender, EventArgs e)
-        {
-            double n = Convert.ToDouble(txtmain.Text);
-            double fat = 1;
-
-            for (double i = n; i > 1; i--)
-            {
-                fat *= i;
-            }
-            txtmain.Text = fat.ToString();
-            expressao = txtmain.Text;
-            txtmain.Focus();
-            focus();
-        }
-        private void btnpot_Click(object sender, EventArgs e)
-        {
-            double n = Convert.ToDouble(txtmain.Text);
-            txtmain.Text = Math.Pow(n, 2).ToString();
-            expressao = txtmain.Text;
-            focus();
-        }
-
-        private void btnraiz_Click(object sender, EventArgs e)
-        {
-            double n = Convert.ToDouble(txtmain.Text);
-            txtmain.Text = Math.Sqrt(n).ToString();
-            expressao = txtmain.Text;
-            focus();
-        }
-
-        private void btnposneg_Click(object sender, EventArgs e)
-        {
-            double n = Convert.ToDouble(txtmain.Text);
-            txtmain.Text = (-n).ToString();
-            expressao = txtmain.Text;
-=======
-            txtmain.Text = txtmain.Text + ".";
->>>>>>> Stashed changes
-            focus();
-        }
-
         private void btnopen_Click(object sender, EventArgs e)
         {
             txtmain.Text = txtmain.Text + "(";
@@ -195,6 +153,11 @@ namespace Calculadora_JCN
             focus();
         }
 
+        private void btnvir_Click(object sender, EventArgs e)
+        {
+            txtmain.Text = txtmain.Text + ".";
+            focus();
+        }
         private void btnfat_Click(object sender, EventArgs e)
         {
             Match ultimo = Regex.Match(txtmain.Text, @"-?\d+(?:\.\d+)?$");

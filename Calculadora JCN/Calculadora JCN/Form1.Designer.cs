@@ -55,12 +55,9 @@
             btnc = new Button();
             btnvir = new Button();
             lblmusica = new Label();
-<<<<<<< Updated upstream
             btnbspc = new Button();
-=======
             txtexpoente = new RichTextBox();
             lblexpoente = new Label();
->>>>>>> Stashed changes
             SuspendLayout();
             // 
             // button0
@@ -382,7 +379,6 @@
             lblmusica.TabIndex = 29;
             lblmusica.Text = "Play";
             // 
-<<<<<<< Updated upstream
             // btnbspc
             // 
             btnbspc.Font = new Font("Segoe UI", 7F);
@@ -394,7 +390,6 @@
             btnbspc.Text = "Backspace";
             btnbspc.UseVisualStyleBackColor = true;
             btnbspc.Click += btnbspc_Click;
-=======
             // txtexpoente
             // 
             txtexpoente.Location = new Point(315, 15);
@@ -411,7 +406,6 @@
             lblexpoente.Size = new Size(55, 15);
             lblexpoente.TabIndex = 31;
             lblexpoente.Text = "Expoente";
->>>>>>> Stashed changes
             // 
             // Form1
             // 
@@ -484,11 +478,8 @@
         private Button btnc;
         private Button btnvir;
         private Label lblmusica;
-<<<<<<< Updated upstream
         private Button btnbspc;
-=======
         private RichTextBox txtexpoente;
         private Label lblexpoente;
->>>>>>> Stashed changes
     }
 }

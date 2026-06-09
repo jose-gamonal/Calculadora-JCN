@@ -12,8 +12,8 @@
       }
     ],
     "additionalProbingPaths": [
-      "C:\\Users\\rotec\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\rotec\\.nuget\\packages",
+      "C:\\Users\\sc2biblio\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\sc2biblio\\.nuget\\packages",
       "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
     ],
     "configProperties": {
