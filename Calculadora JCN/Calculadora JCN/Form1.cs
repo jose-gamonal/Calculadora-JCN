@@ -146,8 +146,16 @@ namespace Calculadora_JCN
 
         private void btnfat_Click(object sender, EventArgs e)
         {
-            expressao = expressao + "!";
-            txtmain.Text = expressao.ToString();
+            double n = Convert.ToDouble(txtmain.Text);
+            double fat = 1;
+
+            for (double i = n; i > 1; i--)
+            {
+                fat *= i;
+            }
+            txtmain.Text = fat.ToString();
+            expressao = txtmain.Text;
+            txtmain.Focus();
             focus();
         }
 
