@@ -138,16 +138,25 @@ namespace Calculadora_JCN
 
         private void btnpot_Click(object sender, EventArgs e)
         {
+            double n = Convert.ToDouble(txtmain.Text);
+            txtmain.Text = Math.Pow(n, 2).ToString();
+            expressao = txtmain.Text;
             txtmain.Focus();
         }
 
         private void btnraiz_Click(object sender, EventArgs e)
         {
+            double n = Convert.ToDouble(txtmain.Text);
+            txtmain.Text = Math.Sqrt(n).ToString();
+            expressao = txtmain.Text;
             txtmain.Focus();
         }
 
         private void btnposneg_Click(object sender, EventArgs e)
         {
+            double n = Convert.ToDouble(txtmain.Text);
+            txtmain.Text = (-n).ToString();
+            expressao = txtmain.Text;
             txtmain.Focus();
         }
 
@@ -168,13 +177,14 @@ namespace Calculadora_JCN
         private void btnce_Click(object sender, EventArgs e)
         {
             expressao = "";
+            txtmain.Text = "";
             txtmain.Focus();
         }
 
         private void btnbspc_Click(object sender, EventArgs e)
         {
             char[] expressaochar1 = expressao.ToCharArray();
-            char[] expressaochar2;
+            char[] expressaochar2 = new char[20];
             for(int i = 0; i < expressao.Length-1; i++)
             {
                 expressaochar2[i] = expressaochar1[i];

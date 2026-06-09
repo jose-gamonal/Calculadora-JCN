@@ -51,3 +51,21 @@ C:\Users\LABSC3\Desktop\Calculadora-JCN\Calculadora JCN\Calculadora JCN\obj\Debu
 C:\Users\LABSC3\Desktop\Calculadora-JCN\Calculadora JCN\Calculadora JCN\obj\Debug\net8.0-windows\Calculadora JCN.pdb
 C:\Users\LABSC3\Desktop\Calculadora-JCN\Calculadora JCN\Calculadora JCN\obj\Debug\net8.0-windows\Calculadora JCN.genruntimeconfig.cache
 C:\Users\LABSC3\Desktop\Calculadora-JCN\Calculadora JCN\Calculadora JCN\obj\Debug\net8.0-windows\ref\Calculadora JCN.dll
+C:\Users\Natan\OneDrive\Documentos\GitHub\Calculadora-JCN\Calculadora JCN\Calculadora JCN\obj\Debug\net8.0-windows\Calculadora_JCN.Form1.resources
+C:\Users\Natan\OneDrive\Documentos\GitHub\Calculadora-JCN\Calculadora JCN\Calculadora JCN\obj\Debug\net8.0-windows\Calculadora_JCN.Properties.Resources.resources
+C:\Users\Natan\OneDrive\Documentos\GitHub\Calculadora-JCN\Calculadora JCN\Calculadora JCN\obj\Debug\net8.0-windows\Calculadora JCN.csproj.GenerateResource.cache
+C:\Users\Natan\OneDrive\Documentos\GitHub\Calculadora-JCN\Calculadora JCN\Calculadora JCN\obj\Debug\net8.0-windows\Calculadora JCN.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Natan\OneDrive\Documentos\GitHub\Calculadora-JCN\Calculadora JCN\Calculadora JCN\obj\Debug\net8.0-windows\Calculadora JCN.AssemblyInfoInputs.cache
+C:\Users\Natan\OneDrive\Documentos\GitHub\Calculadora-JCN\Calculadora JCN\Calculadora JCN\obj\Debug\net8.0-windows\Calculadora JCN.AssemblyInfo.cs
+C:\Users\Natan\OneDrive\Documentos\GitHub\Calculadora-JCN\Calculadora JCN\Calculadora JCN\obj\Debug\net8.0-windows\Calculadora JCN.csproj.CoreCompileInputs.cache
+C:\Users\Natan\OneDrive\Documentos\GitHub\Calculadora-JCN\Calculadora JCN\Calculadora JCN\obj\Debug\net8.0-windows\Calculadora JCN.sourcelink.json
+C:\Users\Natan\OneDrive\Documentos\GitHub\Calculadora-JCN\Calculadora JCN\Calculadora JCN\obj\Debug\net8.0-windows\Calculadora JCN.dll
+C:\Users\Natan\OneDrive\Documentos\GitHub\Calculadora-JCN\Calculadora JCN\Calculadora JCN\obj\Debug\net8.0-windows\refint\Calculadora JCN.dll
+C:\Users\Natan\OneDrive\Documentos\GitHub\Calculadora-JCN\Calculadora JCN\Calculadora JCN\obj\Debug\net8.0-windows\Calculadora JCN.pdb
+C:\Users\Natan\OneDrive\Documentos\GitHub\Calculadora-JCN\Calculadora JCN\Calculadora JCN\bin\Debug\net8.0-windows\Calculadora JCN.exe
+C:\Users\Natan\OneDrive\Documentos\GitHub\Calculadora-JCN\Calculadora JCN\Calculadora JCN\bin\Debug\net8.0-windows\Calculadora JCN.deps.json
+C:\Users\Natan\OneDrive\Documentos\GitHub\Calculadora-JCN\Calculadora JCN\Calculadora JCN\bin\Debug\net8.0-windows\Calculadora JCN.runtimeconfig.json
+C:\Users\Natan\OneDrive\Documentos\GitHub\Calculadora-JCN\Calculadora JCN\Calculadora JCN\bin\Debug\net8.0-windows\Calculadora JCN.dll
+C:\Users\Natan\OneDrive\Documentos\GitHub\Calculadora-JCN\Calculadora JCN\Calculadora JCN\bin\Debug\net8.0-windows\Calculadora JCN.pdb
+C:\Users\Natan\OneDrive\Documentos\GitHub\Calculadora-JCN\Calculadora JCN\Calculadora JCN\obj\Debug\net8.0-windows\Calculadora JCN.genruntimeconfig.cache
+C:\Users\Natan\OneDrive\Documentos\GitHub\Calculadora-JCN\Calculadora JCN\Calculadora JCN\obj\Debug\net8.0-windows\ref\Calculadora JCN.dll
