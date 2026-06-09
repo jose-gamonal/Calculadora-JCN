@@ -12,8 +12,8 @@
       }
     ],
     "additionalProbingPaths": [
-      "C:\\Users\\Natan\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\Natan\\.nuget\\packages"
+      "C:\\Users\\Gamonal\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Gamonal\\.nuget\\packages"
     ],
     "configProperties": {
       "CSWINRT_USE_WINDOWS_UI_XAML_PROJECTIONS": false,

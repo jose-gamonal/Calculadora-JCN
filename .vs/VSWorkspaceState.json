@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Calculadora JCN"
+    "\\Calculadora JCN",
+    "\\Calculadora JCN\\Calculadora JCN"
   ],
-  "SelectedNode": "\\Calculadora JCN\\Calculadora JCN.sln",
+  "SelectedNode": "\\Calculadora JCN\\Calculadora JCN\\Form1.cs",
   "PreviewInSolutionExplorer": false
 }

@@ -144,6 +144,7 @@
             // 
             // button7
             // 
+            button7.BackColor = Color.Transparent;
             button7.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold);
             button7.Location = new Point(27, 173);
             button7.Name = "button7";
@@ -151,7 +152,7 @@
             button7.TabIndex = 7;
             button7.TabStop = false;
             button7.Text = "7";
-            button7.UseVisualStyleBackColor = true;
+            button7.UseVisualStyleBackColor = false;
             button7.Click += button7_Click;
             // 
             // button8
@@ -197,6 +198,7 @@
             txtmain.Size = new Size(374, 96);
             txtmain.TabIndex = 12;
             txtmain.Text = "";
+            txtmain.TextChanged += txtmain_TextChanged;
             // 
             // btnopen
             // 
@@ -387,6 +389,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = SystemColors.Control;
             ClientSize = new Size(429, 472);
             Controls.Add(lblmusica);
             Controls.Add(btnvir);
