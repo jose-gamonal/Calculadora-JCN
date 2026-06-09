@@ -207,7 +207,7 @@ namespace Calculadora_JCN
         private void btnbspc_Click(object sender, EventArgs e)
         {
             char[] expressaochar = expressao.ToCharArray();
-            expressao = new string(expressaochar, 0, expressaochar.Length-1);
+            expressao = new string(expressaochar, 0, expressaochar.Length - 1);
             txtmain.Text = expressao;
             focus();
         }
@@ -217,6 +217,29 @@ namespace Calculadora_JCN
             calc();
             focus();
         }
+
+        private void txtmain_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == '=')
+            {
+                calc();
+                e.Handled = true; // impede o = de aparecer
+                return;
+            }
+
+            if (!char.IsDigit(e.KeyChar) &&
+                e.KeyChar != '+' &&
+                e.KeyChar != '-' &&
+                e.KeyChar != '*' &&
+                e.KeyChar != '/' &&
+                e.KeyChar != '.' &&
+                e.KeyChar != '(' &&
+                e.KeyChar != ')' &&
+                e.KeyChar != (char)8) // Backspace
+            {
+                e.Handled = true;
+            }
+        }
     }
-}
+    }
 
