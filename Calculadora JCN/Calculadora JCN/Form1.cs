@@ -169,7 +169,13 @@ namespace Calculadora_JCN
             if (ultimo.Success)
             {
                 double numero = double.Parse(ultimo.Value);
-                double expoente = Convert.ToDouble(txtexpoente.Text);
+                double expoente = 2;
+
+                if (txtexpoente.Text != "")
+                {
+                    expoente = Convert.ToDouble(txtexpoente.Text);
+                }
+                
                 numero = Math.Pow(numero, expoente);
 
                 txtmain.Text = Regex.Replace(
@@ -186,7 +192,13 @@ namespace Calculadora_JCN
             if (ultimo.Success)
             {
                 double numero = double.Parse(ultimo.Value);
-                double indice = Convert.ToDouble(txtexpoente.Text);
+                double indice = 2;
+
+                if (txtexpoente.Text != "")
+                {
+                    indice = Convert.ToDouble(txtexpoente.Text);
+                }
+
                 numero = Math.Pow(numero, 1 / indice); //Matematicamente, calcular uma raiz é o mesmo que elevar um número à potência do inverso do índice
 
                 txtmain.Text = Regex.Replace(

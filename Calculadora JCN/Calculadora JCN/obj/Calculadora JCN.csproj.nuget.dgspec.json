@@ -1,25 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Gamonal\\Documents\\GitHub\\Calculadora-JCN\\Calculadora JCN\\Calculadora JCN\\Calculadora JCN.csproj": {}
+    "C:\\Users\\biblioteca\\Desktop\\Calculadora-JCN\\Calculadora JCN\\Calculadora JCN\\Calculadora JCN.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Gamonal\\Documents\\GitHub\\Calculadora-JCN\\Calculadora JCN\\Calculadora JCN\\Calculadora JCN.csproj": {
+    "C:\\Users\\biblioteca\\Desktop\\Calculadora-JCN\\Calculadora JCN\\Calculadora JCN\\Calculadora JCN.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gamonal\\Documents\\GitHub\\Calculadora-JCN\\Calculadora JCN\\Calculadora JCN\\Calculadora JCN.csproj",
+        "projectUniqueName": "C:\\Users\\biblioteca\\Desktop\\Calculadora-JCN\\Calculadora JCN\\Calculadora JCN\\Calculadora JCN.csproj",
         "projectName": "Calculadora JCN",
-        "projectPath": "C:\\Users\\Gamonal\\Documents\\GitHub\\Calculadora-JCN\\Calculadora JCN\\Calculadora JCN\\Calculadora JCN.csproj",
-        "packagesPath": "C:\\Users\\Gamonal\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gamonal\\Documents\\GitHub\\Calculadora-JCN\\Calculadora JCN\\Calculadora JCN\\obj\\",
+        "projectPath": "C:\\Users\\biblioteca\\Desktop\\Calculadora-JCN\\Calculadora JCN\\Calculadora JCN\\Calculadora JCN.csproj",
+        "packagesPath": "C:\\Users\\biblioteca\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\biblioteca\\Desktop\\Calculadora-JCN\\Calculadora JCN\\Calculadora JCN\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Gamonal\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\biblioteca\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0-windows"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -62,6 +69,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.28, 8.0.28]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[8.0.28, 8.0.28]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.28, 8.0.28]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.28, 8.0.28]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
