@@ -12,9 +12,8 @@
       }
     ],
     "additionalProbingPaths": [
-      "C:\\Users\\sc2biblio\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\sc2biblio\\.nuget\\packages",
-      "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      "C:\\Users\\Gamonal\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Gamonal\\.nuget\\packages"
     ],
     "configProperties": {
       "CSWINRT_USE_WINDOWS_UI_XAML_PROJECTIONS": false,

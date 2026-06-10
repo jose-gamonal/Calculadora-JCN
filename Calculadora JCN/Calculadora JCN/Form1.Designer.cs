@@ -50,13 +50,17 @@
             btnclose = new Button();
             btnpot = new Button();
             btnfat = new Button();
-            btnmusica = new Button();
+            btntrocarmusica = new Button();
             btnraiz = new Button();
             btnc = new Button();
             btnvir = new Button();
-            lblmusica = new Label();
             btnbspc = new Button();
             txtexpoente = new RichTextBox();
+            lbltitulo = new Label();
+            btnplaypause = new Button();
+            btnhistorico = new Button();
+            lblmusicaatual = new Label();
+            btnnightmode = new Button();
             lblexpoente = new Label();
             SuspendLayout();
             // 
@@ -202,7 +206,7 @@
             txtmain.Size = new Size(374, 96);
             txtmain.TabIndex = 12;
             txtmain.Text = "";
-            txtmain.TextChanged += txtmain_TextChanged;
+            txtmain.KeyDown += txtmain_KeyDown;
             txtmain.KeyPress += txtmain_KeyPress;
             // 
             // btnopen
@@ -323,16 +327,17 @@
             btnfat.UseVisualStyleBackColor = true;
             btnfat.Click += btnfat_Click;
             // 
-            // btnmusica
+            // btntrocarmusica
             // 
-            btnmusica.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnmusica.Location = new Point(28, 10);
-            btnmusica.Name = "btnmusica";
-            btnmusica.Size = new Size(36, 26);
-            btnmusica.TabIndex = 24;
-            btnmusica.TabStop = false;
-            btnmusica.Text = "🔊";
-            btnmusica.UseVisualStyleBackColor = true;
+            btntrocarmusica.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btntrocarmusica.Location = new Point(41, 475);
+            btntrocarmusica.Name = "btntrocarmusica";
+            btntrocarmusica.Size = new Size(44, 40);
+            btntrocarmusica.TabIndex = 24;
+            btntrocarmusica.TabStop = false;
+            btntrocarmusica.Text = " 🔀";
+            btntrocarmusica.UseVisualStyleBackColor = true;
+            btntrocarmusica.Click += btntrocarmusica_Click;
             // 
             // btnraiz
             // 
@@ -370,15 +375,6 @@
             btnvir.UseVisualStyleBackColor = true;
             btnvir.Click += btnvir_Click;
             // 
-            // lblmusica
-            // 
-            lblmusica.AutoSize = true;
-            lblmusica.Location = new Point(66, 15);
-            lblmusica.Name = "lblmusica";
-            lblmusica.Size = new Size(29, 15);
-            lblmusica.TabIndex = 29;
-            lblmusica.Text = "Play";
-            // 
             // btnbspc
             // 
             btnbspc.Font = new Font("Segoe UI", 7F);
@@ -390,36 +386,95 @@
             btnbspc.Text = "Backspace";
             btnbspc.UseVisualStyleBackColor = true;
             btnbspc.Click += btnbspc_Click;
+            // 
             // txtexpoente
             // 
-            txtexpoente.Location = new Point(315, 15);
+            txtexpoente.Location = new Point(231, 12);
             txtexpoente.Name = "txtexpoente";
             txtexpoente.Size = new Size(86, 21);
             txtexpoente.TabIndex = 30;
             txtexpoente.Text = "";
+            txtexpoente.KeyPress += txtexpoente_KeyPress;
+            // 
+            // lbltitulo
+            // 
+            lbltitulo.AutoSize = true;
+            lbltitulo.Font = new Font("MS Reference Sans Serif", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lbltitulo.Location = new Point(27, 16);
+            lbltitulo.Name = "lbltitulo";
+            lbltitulo.Size = new Size(144, 19);
+            lbltitulo.TabIndex = 31;
+            lbltitulo.Text = "Calculadora JCN";
+            // 
+            // btnplaypause
+            // 
+            btnplaypause.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnplaypause.Location = new Point(91, 475);
+            btnplaypause.Name = "btnplaypause";
+            btnplaypause.Size = new Size(44, 40);
+            btnplaypause.TabIndex = 32;
+            btnplaypause.TabStop = false;
+            btnplaypause.Text = " ▶";
+            btnplaypause.UseVisualStyleBackColor = true;
+            btnplaypause.Click += btnplaypause_Click;
+            // 
+            // btnhistorico
+            // 
+            btnhistorico.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnhistorico.Location = new Point(365, 8);
+            btnhistorico.Name = "btnhistorico";
+            btnhistorico.Size = new Size(36, 26);
+            btnhistorico.TabIndex = 33;
+            btnhistorico.TabStop = false;
+            btnhistorico.Text = "🕐";
+            btnhistorico.UseVisualStyleBackColor = true;
+            // 
+            // lblmusicaatual
+            // 
+            lblmusicaatual.AutoSize = true;
+            lblmusicaatual.Location = new Point(141, 490);
+            lblmusicaatual.Name = "lblmusicaatual";
+            lblmusicaatual.Size = new Size(16, 15);
+            lblmusicaatual.TabIndex = 34;
+            lblmusicaatual.Text = "...";
+            // 
+            // btnnightmode
+            // 
+            btnnightmode.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnnightmode.Location = new Point(323, 8);
+            btnnightmode.Name = "btnnightmode";
+            btnnightmode.Size = new Size(36, 26);
+            btnnightmode.TabIndex = 35;
+            btnnightmode.TabStop = false;
+            btnnightmode.Text = "\u23fe";
+            btnnightmode.UseVisualStyleBackColor = true;
             // 
             // lblexpoente
             // 
             lblexpoente.AutoSize = true;
-            lblexpoente.Location = new Point(254, 18);
+            lblexpoente.Location = new Point(210, 15);
             lblexpoente.Name = "lblexpoente";
-            lblexpoente.Size = new Size(55, 15);
-            lblexpoente.TabIndex = 31;
-            lblexpoente.Text = "Expoente";
+            lblexpoente.Size = new Size(15, 15);
+            lblexpoente.TabIndex = 36;
+            lblexpoente.Text = "^";
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.Control;
-            ClientSize = new Size(429, 472);
+            ClientSize = new Size(429, 539);
             Controls.Add(lblexpoente);
+            Controls.Add(btnnightmode);
+            Controls.Add(lblmusicaatual);
+            Controls.Add(btnhistorico);
+            Controls.Add(btnplaypause);
+            Controls.Add(lbltitulo);
             Controls.Add(txtexpoente);
-            Controls.Add(lblmusica);
             Controls.Add(btnvir);
             Controls.Add(btnc);
             Controls.Add(btnraiz);
-            Controls.Add(btnmusica);
+            Controls.Add(btntrocarmusica);
             Controls.Add(btnfat);
             Controls.Add(btnpot);
             Controls.Add(btnclose);
@@ -444,7 +499,8 @@
             Controls.Add(button1);
             Controls.Add(button0);
             Name = "Form1";
-            Text = "Form1";
+            Text = "JCN";
+            FormClosing += Form1_FormClosing;
             ResumeLayout(false);
             PerformLayout();
         }
@@ -473,13 +529,17 @@
         private Button btnclose;
         private Button btnpot;
         private Button btnfat;
-        private Button btnmusica;
+        private Button btntrocarmusica;
         private Button btnraiz;
         private Button btnc;
         private Button btnvir;
-        private Label lblmusica;
         private Button btnbspc;
         private RichTextBox txtexpoente;
+        private Label lbltitulo;
+        private Button btnplaypause;
+        private Button btnhistorico;
+        private Label lblmusicaatual;
+        private Button btnnightmode;
         private Label lblexpoente;
     }
 }

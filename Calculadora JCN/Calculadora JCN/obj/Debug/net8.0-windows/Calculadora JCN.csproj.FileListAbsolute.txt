@@ -105,3 +105,12 @@ C:\Users\sc2biblio\Documents\GitHub\Calculadora-JCN\Calculadora JCN\Calculadora 
 C:\Users\sc2biblio\Documents\GitHub\Calculadora-JCN\Calculadora JCN\Calculadora JCN\bin\Debug\net8.0-windows\Calculadora JCN.pdb
 C:\Users\sc2biblio\Documents\GitHub\Calculadora-JCN\Calculadora JCN\Calculadora JCN\obj\Debug\net8.0-windows\Calculadora JCN.genruntimeconfig.cache
 C:\Users\sc2biblio\Documents\GitHub\Calculadora-JCN\Calculadora JCN\Calculadora JCN\obj\Debug\net8.0-windows\ref\Calculadora JCN.dll
+C:\Users\Gamonal\Documents\GitHub\Calculadora-JCN\Calculadora JCN\Calculadora JCN\bin\Debug\net8.0-windows\NAudio.dll
+C:\Users\Gamonal\Documents\GitHub\Calculadora-JCN\Calculadora JCN\Calculadora JCN\bin\Debug\net8.0-windows\NAudio.Asio.dll
+C:\Users\Gamonal\Documents\GitHub\Calculadora-JCN\Calculadora JCN\Calculadora JCN\bin\Debug\net8.0-windows\NAudio.Core.dll
+C:\Users\Gamonal\Documents\GitHub\Calculadora-JCN\Calculadora JCN\Calculadora JCN\bin\Debug\net8.0-windows\NAudio.Midi.dll
+C:\Users\Gamonal\Documents\GitHub\Calculadora-JCN\Calculadora JCN\Calculadora JCN\bin\Debug\net8.0-windows\NAudio.Wasapi.dll
+C:\Users\Gamonal\Documents\GitHub\Calculadora-JCN\Calculadora JCN\Calculadora JCN\bin\Debug\net8.0-windows\NAudio.WinForms.dll
+C:\Users\Gamonal\Documents\GitHub\Calculadora-JCN\Calculadora JCN\Calculadora JCN\bin\Debug\net8.0-windows\NAudio.WinMM.dll
+C:\Users\Gamonal\Documents\GitHub\Calculadora-JCN\Calculadora JCN\Calculadora JCN\obj\Debug\net8.0-windows\Calculadora JCN.csproj.AssemblyReference.cache
+C:\Users\Gamonal\Documents\GitHub\Calculadora-JCN\Calculadora JCN\Calculadora JCN\obj\Debug\net8.0-windows\Calculad.11B7FE5E.Up2Date
