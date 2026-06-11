@@ -41,7 +41,6 @@
             btnigual = new Button();
             txtmain = new RichTextBox();
             btnopen = new Button();
-            btnbspc = new Button();
             btnce = new Button();
             btnmais = new Button();
             btnmenos = new Button();
@@ -51,19 +50,26 @@
             btnclose = new Button();
             btnpot = new Button();
             btnfat = new Button();
-            btnmusica = new Button();
+            btntrocarmusica = new Button();
             btnraiz = new Button();
-            btnhistory = new Button();
+            btnc = new Button();
             btnvir = new Button();
-            lblmusica = new Label();
+            btnbspc = new Button();
+            txtexpoente = new RichTextBox();
+            lbltitulo = new Label();
+            btnplaypause = new Button();
+            btnhistorico = new Button();
+            lblmusicaatual = new Label();
+            btnnightmode = new Button();
+            lblexpoente = new Label();
             SuspendLayout();
             // 
             // button0
             // 
             button0.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold);
-            button0.Location = new Point(99, 441);
+            button0.Location = new Point(99, 389);
             button0.Name = "button0";
-            button0.Size = new Size(67, 74);
+            button0.Size = new Size(67, 65);
             button0.TabIndex = 0;
             button0.TabStop = false;
             button0.Text = "0";
@@ -73,9 +79,9 @@
             // button1
             // 
             button1.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold);
-            button1.Location = new Point(27, 359);
+            button1.Location = new Point(27, 317);
             button1.Name = "button1";
-            button1.Size = new Size(67, 75);
+            button1.Size = new Size(67, 66);
             button1.TabIndex = 1;
             button1.TabStop = false;
             button1.Text = "1";
@@ -85,9 +91,9 @@
             // button2
             // 
             button2.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold);
-            button2.Location = new Point(99, 359);
+            button2.Location = new Point(99, 317);
             button2.Name = "button2";
-            button2.Size = new Size(67, 75);
+            button2.Size = new Size(67, 66);
             button2.TabIndex = 2;
             button2.TabStop = false;
             button2.Text = "2";
@@ -97,9 +103,9 @@
             // button3
             // 
             button3.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold);
-            button3.Location = new Point(172, 360);
+            button3.Location = new Point(172, 317);
             button3.Name = "button3";
-            button3.Size = new Size(67, 75);
+            button3.Size = new Size(67, 66);
             button3.TabIndex = 3;
             button3.TabStop = false;
             button3.Text = "3";
@@ -109,9 +115,9 @@
             // button4
             // 
             button4.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold);
-            button4.Location = new Point(27, 278);
+            button4.Location = new Point(27, 245);
             button4.Name = "button4";
-            button4.Size = new Size(67, 75);
+            button4.Size = new Size(67, 66);
             button4.TabIndex = 4;
             button4.TabStop = false;
             button4.Text = "4";
@@ -121,9 +127,9 @@
             // button5
             // 
             button5.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold);
-            button5.Location = new Point(99, 278);
+            button5.Location = new Point(99, 245);
             button5.Name = "button5";
-            button5.Size = new Size(67, 75);
+            button5.Size = new Size(67, 66);
             button5.TabIndex = 5;
             button5.TabStop = false;
             button5.Text = "5";
@@ -133,9 +139,9 @@
             // button6
             // 
             button6.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold);
-            button6.Location = new Point(172, 278);
+            button6.Location = new Point(172, 245);
             button6.Name = "button6";
-            button6.Size = new Size(67, 75);
+            button6.Size = new Size(67, 66);
             button6.TabIndex = 6;
             button6.TabStop = false;
             button6.Text = "6";
@@ -146,9 +152,9 @@
             // 
             button7.BackColor = Color.Transparent;
             button7.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold);
-            button7.Location = new Point(27, 196);
+            button7.Location = new Point(27, 173);
             button7.Name = "button7";
-            button7.Size = new Size(67, 75);
+            button7.Size = new Size(67, 66);
             button7.TabIndex = 7;
             button7.TabStop = false;
             button7.Text = "7";
@@ -158,9 +164,9 @@
             // button8
             // 
             button8.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold);
-            button8.Location = new Point(99, 196);
+            button8.Location = new Point(99, 173);
             button8.Name = "button8";
-            button8.Size = new Size(67, 75);
+            button8.Size = new Size(67, 66);
             button8.TabIndex = 8;
             button8.TabStop = false;
             button8.Text = "8";
@@ -170,9 +176,9 @@
             // button9
             // 
             button9.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold);
-            button9.Location = new Point(172, 196);
+            button9.Location = new Point(172, 173);
             button9.Name = "button9";
-            button9.Size = new Size(67, 75);
+            button9.Size = new Size(67, 66);
             button9.TabIndex = 9;
             button9.TabStop = false;
             button9.Text = "9";
@@ -182,9 +188,9 @@
             // btnigual
             // 
             btnigual.Font = new Font("Tw Cen MT", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnigual.Location = new Point(326, 439);
+            btnigual.Location = new Point(326, 387);
             btnigual.Name = "btnigual";
-            btnigual.Size = new Size(75, 75);
+            btnigual.Size = new Size(75, 66);
             btnigual.TabIndex = 10;
             btnigual.TabStop = false;
             btnigual.Text = "=";
@@ -193,55 +199,45 @@
             // 
             // txtmain
             // 
-            txtmain.Location = new Point(27, 43);
+            txtmain.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            txtmain.Location = new Point(27, 38);
             txtmain.Name = "txtmain";
-            txtmain.Size = new Size(374, 108);
+            txtmain.RightToLeft = RightToLeft.No;
+            txtmain.Size = new Size(374, 96);
             txtmain.TabIndex = 12;
             txtmain.Text = "";
-            txtmain.TextChanged += txtmain_TextChanged;
+            txtmain.KeyDown += txtmain_KeyDown;
             txtmain.KeyPress += txtmain_KeyPress;
             // 
             // btnopen
             // 
-            btnopen.Location = new Point(27, 163);
+            btnopen.Location = new Point(27, 144);
             btnopen.Name = "btnopen";
-            btnopen.Size = new Size(67, 26);
+            btnopen.Size = new Size(67, 23);
             btnopen.TabIndex = 13;
             btnopen.TabStop = false;
             btnopen.Text = "(";
             btnopen.UseVisualStyleBackColor = true;
             btnopen.Click += btnopen_Click;
             // 
-            // btnbspc
-            // 
-            btnbspc.Font = new Font("Segoe UI", 7F);
-            btnbspc.Location = new Point(172, 163);
-            btnbspc.Name = "btnbspc";
-            btnbspc.Size = new Size(67, 26);
-            btnbspc.TabIndex = 14;
-            btnbspc.TabStop = false;
-            btnbspc.Text = "Backspace";
-            btnbspc.UseVisualStyleBackColor = true;
-            btnbspc.Click += btnbspc_Click;
-            // 
             // btnce
             // 
             btnce.Font = new Font("Segoe UI", 7F);
-            btnce.Location = new Point(245, 163);
+            btnce.Location = new Point(245, 144);
             btnce.Name = "btnce";
-            btnce.Size = new Size(75, 26);
+            btnce.Size = new Size(75, 23);
             btnce.TabIndex = 15;
             btnce.TabStop = false;
-            btnce.Text = "Clear";
+            btnce.Text = "Clear Entry";
             btnce.UseVisualStyleBackColor = true;
             btnce.Click += btnce_Click;
             // 
             // btnmais
             // 
             btnmais.Font = new Font("Tw Cen MT", 12F);
-            btnmais.Location = new Point(245, 196);
+            btnmais.Location = new Point(245, 173);
             btnmais.Name = "btnmais";
-            btnmais.Size = new Size(75, 75);
+            btnmais.Size = new Size(75, 66);
             btnmais.TabIndex = 16;
             btnmais.TabStop = false;
             btnmais.Text = "+";
@@ -251,9 +247,9 @@
             // btnmenos
             // 
             btnmenos.Font = new Font("Tw Cen MT", 14F);
-            btnmenos.Location = new Point(245, 279);
+            btnmenos.Location = new Point(245, 246);
             btnmenos.Name = "btnmenos";
-            btnmenos.Size = new Size(75, 75);
+            btnmenos.Size = new Size(75, 66);
             btnmenos.TabIndex = 17;
             btnmenos.TabStop = false;
             btnmenos.Text = "-";
@@ -263,9 +259,9 @@
             // btnmult
             // 
             btnmult.Font = new Font("Tw Cen MT", 10F);
-            btnmult.Location = new Point(245, 358);
+            btnmult.Location = new Point(245, 316);
             btnmult.Name = "btnmult";
-            btnmult.Size = new Size(75, 75);
+            btnmult.Size = new Size(75, 66);
             btnmult.TabIndex = 18;
             btnmult.TabStop = false;
             btnmult.Text = "x";
@@ -275,9 +271,9 @@
             // btndiv
             // 
             btndiv.Font = new Font("Tw Cen MT", 10F);
-            btndiv.Location = new Point(245, 440);
+            btndiv.Location = new Point(245, 388);
             btndiv.Name = "btndiv";
-            btndiv.Size = new Size(75, 74);
+            btndiv.Size = new Size(75, 65);
             btndiv.TabIndex = 19;
             btndiv.TabStop = false;
             btndiv.Text = "/";
@@ -287,9 +283,9 @@
             // btnposneg
             // 
             btnposneg.Font = new Font("Tw Cen MT", 10F);
-            btnposneg.Location = new Point(27, 441);
+            btnposneg.Location = new Point(27, 389);
             btnposneg.Name = "btnposneg";
-            btnposneg.Size = new Size(67, 74);
+            btnposneg.Size = new Size(67, 65);
             btnposneg.TabIndex = 20;
             btnposneg.TabStop = false;
             btnposneg.Text = "+/-";
@@ -298,9 +294,9 @@
             // 
             // btnclose
             // 
-            btnclose.Location = new Point(99, 163);
+            btnclose.Location = new Point(99, 144);
             btnclose.Name = "btnclose";
-            btnclose.Size = new Size(67, 26);
+            btnclose.Size = new Size(67, 23);
             btnclose.TabIndex = 21;
             btnclose.TabStop = false;
             btnclose.Text = ")";
@@ -310,9 +306,9 @@
             // btnpot
             // 
             btnpot.Font = new Font("Tw Cen MT", 10F);
-            btnpot.Location = new Point(326, 279);
+            btnpot.Location = new Point(326, 246);
             btnpot.Name = "btnpot";
-            btnpot.Size = new Size(75, 75);
+            btnpot.Size = new Size(75, 66);
             btnpot.TabIndex = 22;
             btnpot.TabStop = false;
             btnpot.Text = "x^x";
@@ -322,81 +318,165 @@
             // btnfat
             // 
             btnfat.Font = new Font("Tw Cen MT", 11F);
-            btnfat.Location = new Point(326, 196);
+            btnfat.Location = new Point(326, 173);
             btnfat.Name = "btnfat";
-            btnfat.Size = new Size(75, 75);
+            btnfat.Size = new Size(75, 66);
             btnfat.TabIndex = 23;
             btnfat.TabStop = false;
             btnfat.Text = "x!";
             btnfat.UseVisualStyleBackColor = true;
             btnfat.Click += btnfat_Click;
             // 
-            // btnmusica
+            // btntrocarmusica
             // 
-            btnmusica.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnmusica.Location = new Point(28, 11);
-            btnmusica.Name = "btnmusica";
-            btnmusica.Size = new Size(36, 29);
-            btnmusica.TabIndex = 24;
-            btnmusica.TabStop = false;
-            btnmusica.Text = "🔊";
-            btnmusica.UseVisualStyleBackColor = true;
+            btntrocarmusica.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btntrocarmusica.Location = new Point(41, 475);
+            btntrocarmusica.Name = "btntrocarmusica";
+            btntrocarmusica.Size = new Size(44, 40);
+            btntrocarmusica.TabIndex = 24;
+            btntrocarmusica.TabStop = false;
+            btntrocarmusica.Text = " 🔀";
+            btntrocarmusica.UseVisualStyleBackColor = true;
+            btntrocarmusica.Click += btntrocarmusica_Click;
             // 
             // btnraiz
             // 
             btnraiz.Font = new Font("Tw Cen MT", 10F);
-            btnraiz.Location = new Point(326, 358);
+            btnraiz.Location = new Point(326, 316);
             btnraiz.Name = "btnraiz";
-            btnraiz.Size = new Size(75, 74);
+            btnraiz.Size = new Size(75, 65);
             btnraiz.TabIndex = 25;
             btnraiz.TabStop = false;
             btnraiz.Text = "√x";
             btnraiz.UseVisualStyleBackColor = true;
             btnraiz.Click += btnraiz_Click;
             // 
-            // btnhistory
+            // btnc
             // 
-            btnhistory.Font = new Font("Segoe UI", 7F);
-            btnhistory.Location = new Point(326, 163);
-            btnhistory.Name = "btnhistory";
-            btnhistory.Size = new Size(75, 26);
-            btnhistory.TabIndex = 27;
-            btnhistory.TabStop = false;
-            btnhistory.Text = "Histórico";
-            btnhistory.UseVisualStyleBackColor = true;
+            btnc.Font = new Font("Segoe UI", 7F);
+            btnc.Location = new Point(326, 144);
+            btnc.Name = "btnc";
+            btnc.Size = new Size(75, 23);
+            btnc.TabIndex = 27;
+            btnc.TabStop = false;
+            btnc.Text = "Clear All";
+            btnc.UseVisualStyleBackColor = true;
+            btnc.Click += btnc_Click;
             // 
             // btnvir
             // 
             btnvir.Font = new Font("Tw Cen MT", 20.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnvir.Location = new Point(172, 441);
+            btnvir.Location = new Point(172, 389);
             btnvir.Name = "btnvir";
-            btnvir.Size = new Size(67, 74);
+            btnvir.Size = new Size(67, 65);
             btnvir.TabIndex = 28;
             btnvir.TabStop = false;
             btnvir.Text = ".";
             btnvir.UseVisualStyleBackColor = true;
             btnvir.Click += btnvir_Click;
             // 
-            // lblmusica
+            // btnbspc
             // 
-            lblmusica.AutoSize = true;
-            lblmusica.Location = new Point(66, 17);
-            lblmusica.Name = "lblmusica";
-            lblmusica.Size = new Size(31, 17);
-            lblmusica.TabIndex = 29;
-            lblmusica.Text = "Play";
+            btnbspc.Font = new Font("Segoe UI", 7F);
+            btnbspc.Location = new Point(172, 144);
+            btnbspc.Name = "btnbspc";
+            btnbspc.Size = new Size(67, 23);
+            btnbspc.TabIndex = 14;
+            btnbspc.TabStop = false;
+            btnbspc.Text = "Backspace";
+            btnbspc.UseVisualStyleBackColor = true;
+            btnbspc.Click += btnbspc_Click;
+            // 
+            // txtexpoente
+            // 
+            txtexpoente.Location = new Point(231, 12);
+            txtexpoente.Name = "txtexpoente";
+            txtexpoente.Size = new Size(86, 21);
+            txtexpoente.TabIndex = 30;
+            txtexpoente.Text = "";
+            txtexpoente.KeyPress += txtexpoente_KeyPress;
+            // 
+            // lbltitulo
+            // 
+            lbltitulo.AutoSize = true;
+            lbltitulo.Font = new Font("MS Reference Sans Serif", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lbltitulo.Location = new Point(27, 16);
+            lbltitulo.Name = "lbltitulo";
+            lbltitulo.Size = new Size(144, 19);
+            lbltitulo.TabIndex = 31;
+            lbltitulo.Text = "Calculadora JCN";
+            
+            // 
+            // btnplaypause
+            // 
+            btnplaypause.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnplaypause.Location = new Point(91, 475);
+            btnplaypause.Name = "btnplaypause";
+            btnplaypause.Size = new Size(44, 40);
+            btnplaypause.TabIndex = 32;
+            btnplaypause.TabStop = false;
+            btnplaypause.Text = " ▶";
+            btnplaypause.UseVisualStyleBackColor = true;
+            btnplaypause.Click += btnplaypause_Click;
+            // 
+            // btnhistorico
+            // 
+            btnhistorico.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnhistorico.Location = new Point(365, 8);
+            btnhistorico.Name = "btnhistorico";
+            btnhistorico.Size = new Size(36, 26);
+            btnhistorico.TabIndex = 33;
+            btnhistorico.TabStop = false;
+            btnhistorico.Text = "🕐";
+            btnhistorico.UseVisualStyleBackColor = true;
+            // 
+            // lblmusicaatual
+            // 
+            lblmusicaatual.AutoSize = true;
+            lblmusicaatual.Location = new Point(141, 490);
+            lblmusicaatual.Name = "lblmusicaatual";
+            lblmusicaatual.Size = new Size(16, 15);
+            lblmusicaatual.TabIndex = 34;
+            lblmusicaatual.Text = "...";
+            // 
+            // btnnightmode
+            // 
+            btnnightmode.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnnightmode.Location = new Point(323, 8);
+            btnnightmode.Name = "btnnightmode";
+            btnnightmode.Size = new Size(36, 26);
+            btnnightmode.TabIndex = 35;
+            btnnightmode.TabStop = false;
+            btnnightmode.Text = "\u23fe";
+            btnnightmode.UseVisualStyleBackColor = true;
+            btnnightmode.Click += btnnightmode_Click;
+            // 
+            // lblexpoente
+            // 
+            lblexpoente.AutoSize = true;
+            lblexpoente.Location = new Point(210, 15);
+            lblexpoente.Name = "lblexpoente";
+            lblexpoente.Size = new Size(15, 15);
+            lblexpoente.TabIndex = 36;
+            lblexpoente.Text = "^";
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(7F, 17F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.Control;
-            ClientSize = new Size(429, 535);
-            Controls.Add(lblmusica);
+            ClientSize = new Size(429, 539);
+            Controls.Add(lblexpoente);
+            Controls.Add(btnnightmode);
+            Controls.Add(lblmusicaatual);
+            Controls.Add(btnhistorico);
+            Controls.Add(btnplaypause);
+            Controls.Add(lbltitulo);
+            Controls.Add(txtexpoente);
             Controls.Add(btnvir);
-            Controls.Add(btnhistory);
+            Controls.Add(btnc);
             Controls.Add(btnraiz);
-            Controls.Add(btnmusica);
+            Controls.Add(btntrocarmusica);
             Controls.Add(btnfat);
             Controls.Add(btnpot);
             Controls.Add(btnclose);
@@ -421,7 +501,8 @@
             Controls.Add(button1);
             Controls.Add(button0);
             Name = "Form1";
-            Text = "\\";
+            Text = "JCN";
+            FormClosing += Form1_FormClosing;
             ResumeLayout(false);
             PerformLayout();
         }
@@ -441,7 +522,6 @@
         private Button btnigual;
         private RichTextBox txtmain;
         private Button btnopen;
-        private Button btnbspc;
         private Button btnce;
         private Button btnmais;
         private Button btnmenos;
@@ -451,10 +531,17 @@
         private Button btnclose;
         private Button btnpot;
         private Button btnfat;
-        private Button btnmusica;
+        private Button btntrocarmusica;
         private Button btnraiz;
-        private Button btnhistory;
+        private Button btnc;
         private Button btnvir;
-        private Label lblmusica;
+        private Button btnbspc;
+        private RichTextBox txtexpoente;
+        private Label lbltitulo;
+        private Button btnplaypause;
+        private Button btnhistorico;
+        private Label lblmusicaatual;
+        private Button btnnightmode;
+        private Label lblexpoente;
     }
 }

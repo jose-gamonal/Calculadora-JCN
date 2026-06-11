@@ -69,3 +69,102 @@ C:\Users\Natan\OneDrive\Documentos\GitHub\Calculadora-JCN\Calculadora JCN\Calcul
 C:\Users\Natan\OneDrive\Documentos\GitHub\Calculadora-JCN\Calculadora JCN\Calculadora JCN\bin\Debug\net8.0-windows\Calculadora JCN.pdb
 C:\Users\Natan\OneDrive\Documentos\GitHub\Calculadora-JCN\Calculadora JCN\Calculadora JCN\obj\Debug\net8.0-windows\Calculadora JCN.genruntimeconfig.cache
 C:\Users\Natan\OneDrive\Documentos\GitHub\Calculadora-JCN\Calculadora JCN\Calculadora JCN\obj\Debug\net8.0-windows\ref\Calculadora JCN.dll
+C:\Users\rotec\OneDrive\Documentos\GitHub\Calculadora-JCN\Calculadora JCN\Calculadora JCN\bin\Debug\net8.0-windows\Calculadora JCN.exe
+C:\Users\rotec\OneDrive\Documentos\GitHub\Calculadora-JCN\Calculadora JCN\Calculadora JCN\bin\Debug\net8.0-windows\Calculadora JCN.deps.json
+C:\Users\rotec\OneDrive\Documentos\GitHub\Calculadora-JCN\Calculadora JCN\Calculadora JCN\bin\Debug\net8.0-windows\Calculadora JCN.runtimeconfig.json
+C:\Users\rotec\OneDrive\Documentos\GitHub\Calculadora-JCN\Calculadora JCN\Calculadora JCN\bin\Debug\net8.0-windows\Calculadora JCN.dll
+C:\Users\rotec\OneDrive\Documentos\GitHub\Calculadora-JCN\Calculadora JCN\Calculadora JCN\bin\Debug\net8.0-windows\Calculadora JCN.pdb
+C:\Users\rotec\OneDrive\Documentos\GitHub\Calculadora-JCN\Calculadora JCN\Calculadora JCN\obj\Debug\net8.0-windows\Calculadora_JCN.Form1.resources
+C:\Users\rotec\OneDrive\Documentos\GitHub\Calculadora-JCN\Calculadora JCN\Calculadora JCN\obj\Debug\net8.0-windows\Calculadora_JCN.Properties.Resources.resources
+C:\Users\rotec\OneDrive\Documentos\GitHub\Calculadora-JCN\Calculadora JCN\Calculadora JCN\obj\Debug\net8.0-windows\Calculadora JCN.csproj.GenerateResource.cache
+C:\Users\rotec\OneDrive\Documentos\GitHub\Calculadora-JCN\Calculadora JCN\Calculadora JCN\obj\Debug\net8.0-windows\Calculadora JCN.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rotec\OneDrive\Documentos\GitHub\Calculadora-JCN\Calculadora JCN\Calculadora JCN\obj\Debug\net8.0-windows\Calculadora JCN.AssemblyInfoInputs.cache
+C:\Users\rotec\OneDrive\Documentos\GitHub\Calculadora-JCN\Calculadora JCN\Calculadora JCN\obj\Debug\net8.0-windows\Calculadora JCN.AssemblyInfo.cs
+C:\Users\rotec\OneDrive\Documentos\GitHub\Calculadora-JCN\Calculadora JCN\Calculadora JCN\obj\Debug\net8.0-windows\Calculadora JCN.csproj.CoreCompileInputs.cache
+C:\Users\rotec\OneDrive\Documentos\GitHub\Calculadora-JCN\Calculadora JCN\Calculadora JCN\obj\Debug\net8.0-windows\Calculadora JCN.sourcelink.json
+C:\Users\rotec\OneDrive\Documentos\GitHub\Calculadora-JCN\Calculadora JCN\Calculadora JCN\obj\Debug\net8.0-windows\Calculadora JCN.dll
+C:\Users\rotec\OneDrive\Documentos\GitHub\Calculadora-JCN\Calculadora JCN\Calculadora JCN\obj\Debug\net8.0-windows\refint\Calculadora JCN.dll
+C:\Users\rotec\OneDrive\Documentos\GitHub\Calculadora-JCN\Calculadora JCN\Calculadora JCN\obj\Debug\net8.0-windows\Calculadora JCN.pdb
+C:\Users\rotec\OneDrive\Documentos\GitHub\Calculadora-JCN\Calculadora JCN\Calculadora JCN\obj\Debug\net8.0-windows\Calculadora JCN.genruntimeconfig.cache
+C:\Users\rotec\OneDrive\Documentos\GitHub\Calculadora-JCN\Calculadora JCN\Calculadora JCN\obj\Debug\net8.0-windows\ref\Calculadora JCN.dll
+C:\Users\sc2biblio\Documents\GitHub\Calculadora-JCN\Calculadora JCN\Calculadora JCN\obj\Debug\net8.0-windows\Calculadora_JCN.Form1.resources
+C:\Users\sc2biblio\Documents\GitHub\Calculadora-JCN\Calculadora JCN\Calculadora JCN\obj\Debug\net8.0-windows\Calculadora_JCN.Properties.Resources.resources
+C:\Users\sc2biblio\Documents\GitHub\Calculadora-JCN\Calculadora JCN\Calculadora JCN\obj\Debug\net8.0-windows\Calculadora JCN.csproj.GenerateResource.cache
+C:\Users\sc2biblio\Documents\GitHub\Calculadora-JCN\Calculadora JCN\Calculadora JCN\obj\Debug\net8.0-windows\Calculadora JCN.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sc2biblio\Documents\GitHub\Calculadora-JCN\Calculadora JCN\Calculadora JCN\obj\Debug\net8.0-windows\Calculadora JCN.AssemblyInfoInputs.cache
+C:\Users\sc2biblio\Documents\GitHub\Calculadora-JCN\Calculadora JCN\Calculadora JCN\obj\Debug\net8.0-windows\Calculadora JCN.AssemblyInfo.cs
+C:\Users\sc2biblio\Documents\GitHub\Calculadora-JCN\Calculadora JCN\Calculadora JCN\obj\Debug\net8.0-windows\Calculadora JCN.csproj.CoreCompileInputs.cache
+C:\Users\sc2biblio\Documents\GitHub\Calculadora-JCN\Calculadora JCN\Calculadora JCN\obj\Debug\net8.0-windows\Calculadora JCN.sourcelink.json
+C:\Users\sc2biblio\Documents\GitHub\Calculadora-JCN\Calculadora JCN\Calculadora JCN\obj\Debug\net8.0-windows\Calculadora JCN.dll
+C:\Users\sc2biblio\Documents\GitHub\Calculadora-JCN\Calculadora JCN\Calculadora JCN\obj\Debug\net8.0-windows\refint\Calculadora JCN.dll
+C:\Users\sc2biblio\Documents\GitHub\Calculadora-JCN\Calculadora JCN\Calculadora JCN\obj\Debug\net8.0-windows\Calculadora JCN.pdb
+C:\Users\sc2biblio\Documents\GitHub\Calculadora-JCN\Calculadora JCN\Calculadora JCN\bin\Debug\net8.0-windows\Calculadora JCN.exe
+C:\Users\sc2biblio\Documents\GitHub\Calculadora-JCN\Calculadora JCN\Calculadora JCN\bin\Debug\net8.0-windows\Calculadora JCN.deps.json
+C:\Users\sc2biblio\Documents\GitHub\Calculadora-JCN\Calculadora JCN\Calculadora JCN\bin\Debug\net8.0-windows\Calculadora JCN.runtimeconfig.json
+C:\Users\sc2biblio\Documents\GitHub\Calculadora-JCN\Calculadora JCN\Calculadora JCN\bin\Debug\net8.0-windows\Calculadora JCN.dll
+C:\Users\sc2biblio\Documents\GitHub\Calculadora-JCN\Calculadora JCN\Calculadora JCN\bin\Debug\net8.0-windows\Calculadora JCN.pdb
+C:\Users\sc2biblio\Documents\GitHub\Calculadora-JCN\Calculadora JCN\Calculadora JCN\obj\Debug\net8.0-windows\Calculadora JCN.genruntimeconfig.cache
+C:\Users\sc2biblio\Documents\GitHub\Calculadora-JCN\Calculadora JCN\Calculadora JCN\obj\Debug\net8.0-windows\ref\Calculadora JCN.dll
+C:\Users\Gamonal\Documents\GitHub\Calculadora-JCN\Calculadora JCN\Calculadora JCN\bin\Debug\net8.0-windows\NAudio.dll
+C:\Users\Gamonal\Documents\GitHub\Calculadora-JCN\Calculadora JCN\Calculadora JCN\bin\Debug\net8.0-windows\NAudio.Asio.dll
+C:\Users\Gamonal\Documents\GitHub\Calculadora-JCN\Calculadora JCN\Calculadora JCN\bin\Debug\net8.0-windows\NAudio.Core.dll
+C:\Users\Gamonal\Documents\GitHub\Calculadora-JCN\Calculadora JCN\Calculadora JCN\bin\Debug\net8.0-windows\NAudio.Midi.dll
+C:\Users\Gamonal\Documents\GitHub\Calculadora-JCN\Calculadora JCN\Calculadora JCN\bin\Debug\net8.0-windows\NAudio.Wasapi.dll
+C:\Users\Gamonal\Documents\GitHub\Calculadora-JCN\Calculadora JCN\Calculadora JCN\bin\Debug\net8.0-windows\NAudio.WinForms.dll
+C:\Users\Gamonal\Documents\GitHub\Calculadora-JCN\Calculadora JCN\Calculadora JCN\bin\Debug\net8.0-windows\NAudio.WinMM.dll
+C:\Users\Gamonal\Documents\GitHub\Calculadora-JCN\Calculadora JCN\Calculadora JCN\obj\Debug\net8.0-windows\Calculadora JCN.csproj.AssemblyReference.cache
+C:\Users\Gamonal\Documents\GitHub\Calculadora-JCN\Calculadora JCN\Calculadora JCN\obj\Debug\net8.0-windows\Calculad.11B7FE5E.Up2Date
+C:\Users\biblioteca\Desktop\Calculadora-JCN\Calculadora JCN\Calculadora JCN\bin\Debug\net8.0-windows\Calculadora JCN.exe
+C:\Users\biblioteca\Desktop\Calculadora-JCN\Calculadora JCN\Calculadora JCN\bin\Debug\net8.0-windows\Calculadora JCN.deps.json
+C:\Users\biblioteca\Desktop\Calculadora-JCN\Calculadora JCN\Calculadora JCN\bin\Debug\net8.0-windows\Calculadora JCN.runtimeconfig.json
+C:\Users\biblioteca\Desktop\Calculadora-JCN\Calculadora JCN\Calculadora JCN\bin\Debug\net8.0-windows\Calculadora JCN.dll
+C:\Users\biblioteca\Desktop\Calculadora-JCN\Calculadora JCN\Calculadora JCN\bin\Debug\net8.0-windows\Calculadora JCN.pdb
+C:\Users\biblioteca\Desktop\Calculadora-JCN\Calculadora JCN\Calculadora JCN\bin\Debug\net8.0-windows\NAudio.dll
+C:\Users\biblioteca\Desktop\Calculadora-JCN\Calculadora JCN\Calculadora JCN\bin\Debug\net8.0-windows\NAudio.Asio.dll
+C:\Users\biblioteca\Desktop\Calculadora-JCN\Calculadora JCN\Calculadora JCN\bin\Debug\net8.0-windows\NAudio.Core.dll
+C:\Users\biblioteca\Desktop\Calculadora-JCN\Calculadora JCN\Calculadora JCN\bin\Debug\net8.0-windows\NAudio.Midi.dll
+C:\Users\biblioteca\Desktop\Calculadora-JCN\Calculadora JCN\Calculadora JCN\bin\Debug\net8.0-windows\NAudio.Wasapi.dll
+C:\Users\biblioteca\Desktop\Calculadora-JCN\Calculadora JCN\Calculadora JCN\bin\Debug\net8.0-windows\NAudio.WinForms.dll
+C:\Users\biblioteca\Desktop\Calculadora-JCN\Calculadora JCN\Calculadora JCN\bin\Debug\net8.0-windows\NAudio.WinMM.dll
+C:\Users\biblioteca\Desktop\Calculadora-JCN\Calculadora JCN\Calculadora JCN\obj\Debug\net8.0-windows\Calculadora JCN.csproj.AssemblyReference.cache
+C:\Users\biblioteca\Desktop\Calculadora-JCN\Calculadora JCN\Calculadora JCN\obj\Debug\net8.0-windows\Calculadora_JCN.Form1.resources
+C:\Users\biblioteca\Desktop\Calculadora-JCN\Calculadora JCN\Calculadora JCN\obj\Debug\net8.0-windows\Calculadora_JCN.Properties.Resources.resources
+C:\Users\biblioteca\Desktop\Calculadora-JCN\Calculadora JCN\Calculadora JCN\obj\Debug\net8.0-windows\Calculadora JCN.csproj.GenerateResource.cache
+C:\Users\biblioteca\Desktop\Calculadora-JCN\Calculadora JCN\Calculadora JCN\obj\Debug\net8.0-windows\Calculadora JCN.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\biblioteca\Desktop\Calculadora-JCN\Calculadora JCN\Calculadora JCN\obj\Debug\net8.0-windows\Calculadora JCN.AssemblyInfoInputs.cache
+C:\Users\biblioteca\Desktop\Calculadora-JCN\Calculadora JCN\Calculadora JCN\obj\Debug\net8.0-windows\Calculadora JCN.AssemblyInfo.cs
+C:\Users\biblioteca\Desktop\Calculadora-JCN\Calculadora JCN\Calculadora JCN\obj\Debug\net8.0-windows\Calculadora JCN.csproj.CoreCompileInputs.cache
+C:\Users\biblioteca\Desktop\Calculadora-JCN\Calculadora JCN\Calculadora JCN\obj\Debug\net8.0-windows\Calculadora JCN.sourcelink.json
+C:\Users\biblioteca\Desktop\Calculadora-JCN\Calculadora JCN\Calculadora JCN\obj\Debug\net8.0-windows\Calculad.11B7FE5E.Up2Date
+C:\Users\biblioteca\Desktop\Calculadora-JCN\Calculadora JCN\Calculadora JCN\obj\Debug\net8.0-windows\Calculadora JCN.dll
+C:\Users\biblioteca\Desktop\Calculadora-JCN\Calculadora JCN\Calculadora JCN\obj\Debug\net8.0-windows\refint\Calculadora JCN.dll
+C:\Users\biblioteca\Desktop\Calculadora-JCN\Calculadora JCN\Calculadora JCN\obj\Debug\net8.0-windows\Calculadora JCN.pdb
+C:\Users\biblioteca\Desktop\Calculadora-JCN\Calculadora JCN\Calculadora JCN\obj\Debug\net8.0-windows\Calculadora JCN.genruntimeconfig.cache
+C:\Users\biblioteca\Desktop\Calculadora-JCN\Calculadora JCN\Calculadora JCN\obj\Debug\net8.0-windows\ref\Calculadora JCN.dll
+C:\Users\rotec\OneDrive\Área de Trabalho\Calculadora JCN2\Calculadora-JCN\Calculadora JCN\Calculadora JCN\bin\Debug\net8.0-windows\Calculadora JCN.exe
+C:\Users\rotec\OneDrive\Área de Trabalho\Calculadora JCN2\Calculadora-JCN\Calculadora JCN\Calculadora JCN\bin\Debug\net8.0-windows\Calculadora JCN.deps.json
+C:\Users\rotec\OneDrive\Área de Trabalho\Calculadora JCN2\Calculadora-JCN\Calculadora JCN\Calculadora JCN\bin\Debug\net8.0-windows\Calculadora JCN.runtimeconfig.json
+C:\Users\rotec\OneDrive\Área de Trabalho\Calculadora JCN2\Calculadora-JCN\Calculadora JCN\Calculadora JCN\bin\Debug\net8.0-windows\Calculadora JCN.dll
+C:\Users\rotec\OneDrive\Área de Trabalho\Calculadora JCN2\Calculadora-JCN\Calculadora JCN\Calculadora JCN\bin\Debug\net8.0-windows\Calculadora JCN.pdb
+C:\Users\rotec\OneDrive\Área de Trabalho\Calculadora JCN2\Calculadora-JCN\Calculadora JCN\Calculadora JCN\bin\Debug\net8.0-windows\NAudio.dll
+C:\Users\rotec\OneDrive\Área de Trabalho\Calculadora JCN2\Calculadora-JCN\Calculadora JCN\Calculadora JCN\bin\Debug\net8.0-windows\NAudio.Asio.dll
+C:\Users\rotec\OneDrive\Área de Trabalho\Calculadora JCN2\Calculadora-JCN\Calculadora JCN\Calculadora JCN\bin\Debug\net8.0-windows\NAudio.Core.dll
+C:\Users\rotec\OneDrive\Área de Trabalho\Calculadora JCN2\Calculadora-JCN\Calculadora JCN\Calculadora JCN\bin\Debug\net8.0-windows\NAudio.Midi.dll
+C:\Users\rotec\OneDrive\Área de Trabalho\Calculadora JCN2\Calculadora-JCN\Calculadora JCN\Calculadora JCN\bin\Debug\net8.0-windows\NAudio.Wasapi.dll
+C:\Users\rotec\OneDrive\Área de Trabalho\Calculadora JCN2\Calculadora-JCN\Calculadora JCN\Calculadora JCN\bin\Debug\net8.0-windows\NAudio.WinForms.dll
+C:\Users\rotec\OneDrive\Área de Trabalho\Calculadora JCN2\Calculadora-JCN\Calculadora JCN\Calculadora JCN\bin\Debug\net8.0-windows\NAudio.WinMM.dll
+C:\Users\rotec\OneDrive\Área de Trabalho\Calculadora JCN2\Calculadora-JCN\Calculadora JCN\Calculadora JCN\obj\Debug\net8.0-windows\Calculadora JCN.csproj.AssemblyReference.cache
+C:\Users\rotec\OneDrive\Área de Trabalho\Calculadora JCN2\Calculadora-JCN\Calculadora JCN\Calculadora JCN\obj\Debug\net8.0-windows\Calculadora_JCN.Form1.resources
+C:\Users\rotec\OneDrive\Área de Trabalho\Calculadora JCN2\Calculadora-JCN\Calculadora JCN\Calculadora JCN\obj\Debug\net8.0-windows\Calculadora_JCN.Properties.Resources.resources
+C:\Users\rotec\OneDrive\Área de Trabalho\Calculadora JCN2\Calculadora-JCN\Calculadora JCN\Calculadora JCN\obj\Debug\net8.0-windows\Calculadora JCN.csproj.GenerateResource.cache
+C:\Users\rotec\OneDrive\Área de Trabalho\Calculadora JCN2\Calculadora-JCN\Calculadora JCN\Calculadora JCN\obj\Debug\net8.0-windows\Calculadora JCN.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rotec\OneDrive\Área de Trabalho\Calculadora JCN2\Calculadora-JCN\Calculadora JCN\Calculadora JCN\obj\Debug\net8.0-windows\Calculadora JCN.AssemblyInfoInputs.cache
+C:\Users\rotec\OneDrive\Área de Trabalho\Calculadora JCN2\Calculadora-JCN\Calculadora JCN\Calculadora JCN\obj\Debug\net8.0-windows\Calculadora JCN.AssemblyInfo.cs
+C:\Users\rotec\OneDrive\Área de Trabalho\Calculadora JCN2\Calculadora-JCN\Calculadora JCN\Calculadora JCN\obj\Debug\net8.0-windows\Calculadora JCN.csproj.CoreCompileInputs.cache
+C:\Users\rotec\OneDrive\Área de Trabalho\Calculadora JCN2\Calculadora-JCN\Calculadora JCN\Calculadora JCN\obj\Debug\net8.0-windows\Calculadora JCN.sourcelink.json
+C:\Users\rotec\OneDrive\Área de Trabalho\Calculadora JCN2\Calculadora-JCN\Calculadora JCN\Calculadora JCN\obj\Debug\net8.0-windows\Calculad.11B7FE5E.Up2Date
+C:\Users\rotec\OneDrive\Área de Trabalho\Calculadora JCN2\Calculadora-JCN\Calculadora JCN\Calculadora JCN\obj\Debug\net8.0-windows\Calculadora JCN.dll
+C:\Users\rotec\OneDrive\Área de Trabalho\Calculadora JCN2\Calculadora-JCN\Calculadora JCN\Calculadora JCN\obj\Debug\net8.0-windows\refint\Calculadora JCN.dll
+C:\Users\rotec\OneDrive\Área de Trabalho\Calculadora JCN2\Calculadora-JCN\Calculadora JCN\Calculadora JCN\obj\Debug\net8.0-windows\Calculadora JCN.pdb
+C:\Users\rotec\OneDrive\Área de Trabalho\Calculadora JCN2\Calculadora-JCN\Calculadora JCN\Calculadora JCN\obj\Debug\net8.0-windows\Calculadora JCN.genruntimeconfig.cache
+C:\Users\rotec\OneDrive\Área de Trabalho\Calculadora JCN2\Calculadora-JCN\Calculadora JCN\Calculadora JCN\obj\Debug\net8.0-windows\ref\Calculadora JCN.dll

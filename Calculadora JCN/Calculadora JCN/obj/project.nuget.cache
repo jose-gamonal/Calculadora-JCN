@@ -1,13 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "dSmxIpsf/5A=",
+  "dgSpecHash": "oIB6C1W4E08=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Natan\\OneDrive\\Documentos\\GitHub\\Calculadora-JCN\\Calculadora JCN\\Calculadora JCN\\Calculadora JCN.csproj",
+  "projectFilePath": "C:\\Users\\rotec\\OneDrive\\Área de Trabalho\\Calculadora JCN2\\Calculadora-JCN\\Calculadora JCN\\Calculadora JCN\\Calculadora JCN.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Natan\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.27\\microsoft.windowsdesktop.app.ref.8.0.27.nupkg.sha512",
-    "C:\\Users\\Natan\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.27\\microsoft.netcore.app.ref.8.0.27.nupkg.sha512",
-    "C:\\Users\\Natan\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.27\\microsoft.aspnetcore.app.ref.8.0.27.nupkg.sha512",
-    "C:\\Users\\Natan\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.27\\microsoft.netcore.app.host.win-x64.8.0.27.nupkg.sha512"
+    "C:\\Users\\rotec\\.nuget\\packages\\naudio\\2.3.0\\naudio.2.3.0.nupkg.sha512",
+    "C:\\Users\\rotec\\.nuget\\packages\\naudio.asio\\2.3.0\\naudio.asio.2.3.0.nupkg.sha512",
+    "C:\\Users\\rotec\\.nuget\\packages\\naudio.core\\2.3.0\\naudio.core.2.3.0.nupkg.sha512",
+    "C:\\Users\\rotec\\.nuget\\packages\\naudio.midi\\2.3.0\\naudio.midi.2.3.0.nupkg.sha512",
+    "C:\\Users\\rotec\\.nuget\\packages\\naudio.wasapi\\2.3.0\\naudio.wasapi.2.3.0.nupkg.sha512",
+    "C:\\Users\\rotec\\.nuget\\packages\\naudio.winforms\\2.3.0\\naudio.winforms.2.3.0.nupkg.sha512",
+    "C:\\Users\\rotec\\.nuget\\packages\\naudio.winmm\\2.3.0\\naudio.winmm.2.3.0.nupkg.sha512"
   ],
   "logs": []
 }
