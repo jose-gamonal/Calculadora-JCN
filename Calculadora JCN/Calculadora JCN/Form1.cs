@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Numerics;
+using System.Reflection.Emit;
 using System.Text.RegularExpressions;
 using static System.Net.Mime.MediaTypeNames;
 namespace Calculadora_JCN
@@ -407,7 +408,7 @@ namespace Calculadora_JCN
                     lbltitulo.ForeColor = Color.White;
                     txtexpoente.BackColor = Color.FromArgb(50, 50, 50);
                     c.ForeColor = Color.White;
-                    
+
                 }
 
                 modoEscuro = true;
@@ -434,6 +435,16 @@ namespace Calculadora_JCN
                 modoEscuro = false;
             }
         }
+
+        private void btncreditos_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(
+                "Calculadora JCN\n\nDesenvolvido por:\nCaique Oliveira Gadelha - 3\nJosé Seidel Osório Gamonal - 6\nNatan Pedro de Moraes Maia - 9",
+                                               "Créditos"
+    );
+        }
+
+
 
 
 

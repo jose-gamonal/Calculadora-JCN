@@ -58,7 +58,7 @@
             txtexpoente = new RichTextBox();
             lbltitulo = new Label();
             btnplaypause = new Button();
-            btnhistorico = new Button();
+            btncreditos = new Button();
             lblmusicaatual = new Label();
             btnnightmode = new Button();
             lblexpoente = new Label();
@@ -389,7 +389,7 @@
             // 
             // txtexpoente
             // 
-            txtexpoente.Location = new Point(231, 12);
+            txtexpoente.Location = new Point(213, 12);
             txtexpoente.Name = "txtexpoente";
             txtexpoente.Size = new Size(86, 21);
             txtexpoente.TabIndex = 30;
@@ -405,7 +405,6 @@
             lbltitulo.Size = new Size(144, 19);
             lbltitulo.TabIndex = 31;
             lbltitulo.Text = "Calculadora JCN";
-            
             // 
             // btnplaypause
             // 
@@ -419,16 +418,17 @@
             btnplaypause.UseVisualStyleBackColor = true;
             btnplaypause.Click += btnplaypause_Click;
             // 
-            // btnhistorico
+            // btncreditos
             // 
-            btnhistorico.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnhistorico.Location = new Point(365, 8);
-            btnhistorico.Name = "btnhistorico";
-            btnhistorico.Size = new Size(36, 26);
-            btnhistorico.TabIndex = 33;
-            btnhistorico.TabStop = false;
-            btnhistorico.Text = "🕐";
-            btnhistorico.UseVisualStyleBackColor = true;
+            btncreditos.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btncreditos.Location = new Point(347, 10);
+            btncreditos.Name = "btncreditos";
+            btncreditos.Size = new Size(52, 26);
+            btncreditos.TabIndex = 33;
+            btncreditos.TabStop = false;
+            btncreditos.Text = "JCN";
+            btncreditos.UseVisualStyleBackColor = true;
+            btncreditos.Click += btncreditos_Click;
             // 
             // lblmusicaatual
             // 
@@ -442,7 +442,7 @@
             // btnnightmode
             // 
             btnnightmode.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnnightmode.Location = new Point(323, 8);
+            btnnightmode.Location = new Point(305, 10);
             btnnightmode.Name = "btnnightmode";
             btnnightmode.Size = new Size(36, 26);
             btnnightmode.TabIndex = 35;
@@ -454,7 +454,7 @@
             // lblexpoente
             // 
             lblexpoente.AutoSize = true;
-            lblexpoente.Location = new Point(210, 15);
+            lblexpoente.Location = new Point(192, 15);
             lblexpoente.Name = "lblexpoente";
             lblexpoente.Size = new Size(15, 15);
             lblexpoente.TabIndex = 36;
@@ -469,7 +469,7 @@
             Controls.Add(lblexpoente);
             Controls.Add(btnnightmode);
             Controls.Add(lblmusicaatual);
-            Controls.Add(btnhistorico);
+            Controls.Add(btncreditos);
             Controls.Add(btnplaypause);
             Controls.Add(lbltitulo);
             Controls.Add(txtexpoente);
@@ -539,7 +539,7 @@
         private RichTextBox txtexpoente;
         private Label lbltitulo;
         private Button btnplaypause;
-        private Button btnhistorico;
+        private Button btncreditos;
         private Label lblmusicaatual;
         private Button btnnightmode;
         private Label lblexpoente;
