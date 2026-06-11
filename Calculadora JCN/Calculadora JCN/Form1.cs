@@ -35,7 +35,8 @@ namespace Calculadora_JCN
         private WaveOutEvent player;
         private AudioFileReader audio;
         Random gerador = new Random();
-
+        private WaveOutEvent playerResultado;
+        private AudioFileReader audioResultado;
 
         private void CarregarMusicas()
         {
@@ -52,7 +53,7 @@ namespace Calculadora_JCN
             player?.Dispose();
 
             //de 0 a 2 - 2 é EXCLUSIVO, random gera entre 0 e 1
-            int indice = gerador.Next(0, 6);
+            int indice = gerador.Next(0, 11);
             audio = new AudioFileReader(musicas[indice]);
             lblmusicaatual.Text = Path.GetFileNameWithoutExtension(musicas[indice]);
 
@@ -175,7 +176,7 @@ namespace Calculadora_JCN
                 {
                     expoente = Convert.ToDouble(txtexpoente.Text);
                 }
-                
+
                 numero = Math.Pow(numero, expoente);
 
                 txtmain.Text = Regex.Replace(
@@ -357,10 +358,6 @@ namespace Calculadora_JCN
         {
             calc();
             focus();
-        }
-
-        public void calc()
-        {
             if (txtmain.Text != "")
             {
                 double resdouble = Convert.ToDouble(new DataTable().Compute(txtmain.Text, null));
@@ -370,12 +367,74 @@ namespace Calculadora_JCN
             }
         }
 
+        public void calc()
+        {
+            if (txtmain.Text != "")
+            {
+                if (txtmain.Text != "")
+                {
+                    double resdouble = Convert.ToDouble(new DataTable().Compute(txtmain.Text, null));
+                    string resultado = resdouble.ToString();
+                    resultado = Regex.Replace(resultado, ",", ".");
+                    txtmain.Text = resultado;
+                }
+            }
+        }
+
         private void focus()
         {
             txtmain.Focus();
             txtmain.SelectionStart = txtmain.Text.Length;
             txtmain.SelectionLength = 0;
         }
+
+        private bool modoEscuro = false;
+        private void btnnightmode_Click(object sender, EventArgs e)
+        {
+            if (!modoEscuro)
+            {
+                this.BackColor = Color.FromArgb(24, 24, 24);
+                txtmain.BackColor = Color.FromArgb(40, 40, 40);
+                txtmain.ForeColor = Color.White;
+
+                foreach (Control c in this.Controls)
+                {
+                    if (c is Button)
+                    {
+                        c.BackColor = Color.FromArgb(50, 50, 50);
+                        c.ForeColor = Color.White;
+                    }
+                    lbltitulo.ForeColor = Color.White;
+                    txtexpoente.BackColor = Color.FromArgb(50, 50, 50);
+                    c.ForeColor = Color.White;
+                    
+                }
+
+                modoEscuro = true;
+            }
+            else
+            {
+                this.BackColor = SystemColors.Control;
+
+                txtmain.BackColor = Color.White;
+                txtmain.ForeColor = Color.Black;
+                lbltitulo.ForeColor = Color.Black;
+                foreach (Control c in this.Controls)
+                {
+                    if (c is Button)
+                    {
+                        c.BackColor = SystemColors.Control;
+                        c.ForeColor = Color.Black;
+                    }
+                    lblmusicaatual.ForeColor = Color.Black;
+                    txtexpoente.BackColor = Color.White;
+                    c.ForeColor = Color.Black;
+                }
+
+                modoEscuro = false;
+            }
+        }
+
 
 
         ////////////// HISTÓRICO

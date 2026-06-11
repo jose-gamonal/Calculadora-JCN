@@ -405,6 +405,7 @@
             lbltitulo.Size = new Size(144, 19);
             lbltitulo.TabIndex = 31;
             lbltitulo.Text = "Calculadora JCN";
+            
             // 
             // btnplaypause
             // 
@@ -448,6 +449,7 @@
             btnnightmode.TabStop = false;
             btnnightmode.Text = "\u23fe";
             btnnightmode.UseVisualStyleBackColor = true;
+            btnnightmode.Click += btnnightmode_Click;
             // 
             // lblexpoente
             // 
