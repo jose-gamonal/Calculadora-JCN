@@ -54,7 +54,7 @@ namespace Calculadora_JCN
             player?.Dispose();
 
             //de 0 a 2 - 2 é EXCLUSIVO, random gera entre 0 e 1
-            int indice = gerador.Next(musicas.Count); ;
+            int indice = gerador.Next(musicas.Count); 
             audio = new AudioFileReader(musicas[indice]);
             lblmusicaatual.Text = Path.GetFileNameWithoutExtension(musicas[indice]);
 

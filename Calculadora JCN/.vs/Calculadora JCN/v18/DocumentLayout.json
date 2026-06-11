@@ -51,14 +51,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Form1.cs [Projeto]",
+              "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\rotec\\OneDrive\\\u00C1rea de Trabalho\\Calculadora JCN2\\Calculadora-JCN\\Calculadora JCN\\Calculadora JCN\\Form1.cs",
               "RelativeDocumentMoniker": "Calculadora JCN\\Form1.cs",
-              "ToolTip": "C:\\Users\\rotec\\OneDrive\\\u00C1rea de Trabalho\\Calculadora JCN2\\Calculadora-JCN\\Calculadora JCN\\Calculadora JCN\\Form1.cs [Projeto]",
-              "RelativeToolTip": "Calculadora JCN\\Form1.cs [Projeto]",
+              "ToolTip": "C:\\Users\\rotec\\OneDrive\\\u00C1rea de Trabalho\\Calculadora JCN2\\Calculadora-JCN\\Calculadora JCN\\Calculadora JCN\\Form1.cs [Design]",
+              "RelativeToolTip": "Calculadora JCN\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-11T01:56:02.628Z",
-              "EditorCaption": " [Projeto]"
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
@@ -68,7 +68,7 @@
               "RelativeDocumentMoniker": "Calculadora JCN\\Form1.cs",
               "ToolTip": "C:\\Users\\rotec\\OneDrive\\\u00C1rea de Trabalho\\Calculadora JCN2\\Calculadora-JCN\\Calculadora JCN\\Calculadora JCN\\Form1.cs",
               "RelativeToolTip": "Calculadora JCN\\Form1.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAgwEAAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAK8BAAAAAAAAAAAiwMcBAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-11T01:54:22.804Z",
               "EditorCaption": ""
@@ -83,8 +83,7 @@
               "RelativeToolTip": "Calculadora JCN\\Form1.Designer.cs",
               "ViewState": "AgIAAIYBAAAAAAAAAAAiwJcBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-11T01:54:20.094Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-11T01:54:20.094Z"
             },
             {
               "$type": "Document",
@@ -95,8 +94,7 @@
               "ToolTip": "C:\\Users\\rotec\\OneDrive\\\u00C1rea de Trabalho\\Calculadora JCN2\\Calculadora-JCN\\Calculadora JCN\\Calculadora JCN\\Form1.resx",
               "RelativeToolTip": "Calculadora JCN\\Form1.resx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2026-06-11T01:54:20.904Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-11T01:54:20.904Z"
             },
             {
               "$type": "Document",
@@ -108,8 +106,7 @@
               "RelativeToolTip": "Calculadora JCN\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-11T01:53:59.183Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-11T01:53:59.183Z"
             }
           ]
         }
