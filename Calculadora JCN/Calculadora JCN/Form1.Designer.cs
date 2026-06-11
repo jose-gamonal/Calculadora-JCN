@@ -62,6 +62,7 @@
             lblmusicaatual = new Label();
             btnnightmode = new Button();
             lblexpoente = new Label();
+            button10 = new Button();
             SuspendLayout();
             // 
             // button0
@@ -389,9 +390,9 @@
             // 
             // txtexpoente
             // 
-            txtexpoente.Location = new Point(213, 12);
+            txtexpoente.Location = new Point(198, 12);
             txtexpoente.Name = "txtexpoente";
-            txtexpoente.Size = new Size(86, 21);
+            txtexpoente.Size = new Size(75, 21);
             txtexpoente.TabIndex = 30;
             txtexpoente.Text = "";
             txtexpoente.KeyPress += txtexpoente_KeyPress;
@@ -400,7 +401,7 @@
             // 
             lbltitulo.AutoSize = true;
             lbltitulo.Font = new Font("MS Reference Sans Serif", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lbltitulo.Location = new Point(27, 16);
+            lbltitulo.Location = new Point(27, 13);
             lbltitulo.Name = "lbltitulo";
             lbltitulo.Size = new Size(144, 19);
             lbltitulo.TabIndex = 31;
@@ -420,10 +421,10 @@
             // 
             // btncreditos
             // 
-            btncreditos.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btncreditos.Location = new Point(347, 10);
+            btncreditos.Font = new Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btncreditos.Location = new Point(364, 8);
             btncreditos.Name = "btncreditos";
-            btncreditos.Size = new Size(52, 26);
+            btncreditos.Size = new Size(36, 26);
             btncreditos.TabIndex = 33;
             btncreditos.TabStop = false;
             btncreditos.Text = "JCN";
@@ -442,7 +443,7 @@
             // btnnightmode
             // 
             btnnightmode.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnnightmode.Location = new Point(305, 10);
+            btnnightmode.Location = new Point(280, 8);
             btnnightmode.Name = "btnnightmode";
             btnnightmode.Size = new Size(36, 26);
             btnnightmode.TabIndex = 35;
@@ -454,11 +455,22 @@
             // lblexpoente
             // 
             lblexpoente.AutoSize = true;
-            lblexpoente.Location = new Point(192, 15);
+            lblexpoente.Location = new Point(177, 15);
             lblexpoente.Name = "lblexpoente";
             lblexpoente.Size = new Size(15, 15);
             lblexpoente.TabIndex = 36;
             lblexpoente.Text = "^";
+            // 
+            // button10
+            // 
+            button10.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            button10.Location = new Point(322, 8);
+            button10.Name = "button10";
+            button10.Size = new Size(36, 26);
+            button10.TabIndex = 37;
+            button10.TabStop = false;
+            button10.Text = "🕐";
+            button10.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -466,6 +478,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.Control;
             ClientSize = new Size(429, 539);
+            Controls.Add(button10);
             Controls.Add(lblexpoente);
             Controls.Add(btnnightmode);
             Controls.Add(lblmusicaatual);
@@ -543,5 +556,6 @@
         private Label lblmusicaatual;
         private Button btnnightmode;
         private Label lblexpoente;
+        private Button button10;
     }
 }
