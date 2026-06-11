@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Natan\\OneDrive\\Documentos\\GitHub\\Calculadora-JCN\\Calculadora JCN\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{00A01838-1C6D-413E-B7EF-BDFD1768A6D5}|Calculadora JCN\\Calculadora JCN.csproj|C:\\Users\\Natan\\OneDrive\\Documentos\\GitHub\\Calculadora-JCN\\Calculadora JCN\\calculadora jcn\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{00A01838-1C6D-413E-B7EF-BDFD1768A6D5}|Calculadora JCN\\Calculadora JCN.csproj|solutionrelative:calculadora jcn\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{00A01838-1C6D-413E-B7EF-BDFD1768A6D5}|Calculadora JCN\\Calculadora JCN.csproj|c:\\users\\natan\\onedrive\\documentos\\github\\calculadora-jcn\\calculadora jcn\\calculadora jcn\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{00A01838-1C6D-413E-B7EF-BDFD1768A6D5}|Calculadora JCN\\Calculadora JCN.csproj|solutionrelative:calculadora jcn\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00A01838-1C6D-413E-B7EF-BDFD1768A6D5}|Calculadora JCN\\Calculadora JCN.csproj|c:\\users\\natan\\onedrive\\documentos\\github\\calculadora-jcn\\calculadora jcn\\calculadora jcn\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{00A01838-1C6D-413E-B7EF-BDFD1768A6D5}|Calculadora JCN\\Calculadora JCN.csproj|solutionrelative:calculadora jcn\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,11 +18,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs [Projeto]",
               "DocumentMoniker": "C:\\Users\\Natan\\OneDrive\\Documentos\\GitHub\\Calculadora-JCN\\Calculadora JCN\\Calculadora JCN\\Form1.cs",
               "RelativeDocumentMoniker": "Calculadora JCN\\Form1.cs",
@@ -47,13 +47,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\Natan\\OneDrive\\Documentos\\GitHub\\Calculadora-JCN\\Calculadora JCN\\Calculadora JCN\\Form1.cs",
               "RelativeDocumentMoniker": "Calculadora JCN\\Form1.cs",
               "ToolTip": "C:\\Users\\Natan\\OneDrive\\Documentos\\GitHub\\Calculadora-JCN\\Calculadora JCN\\Calculadora JCN\\Form1.cs",
               "RelativeToolTip": "Calculadora JCN\\Form1.cs",
-              "ViewState": "AgIAANwAAAAAAAAAAADwv+8AAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAPUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-01T22:34:30.191Z",
               "EditorCaption": ""
