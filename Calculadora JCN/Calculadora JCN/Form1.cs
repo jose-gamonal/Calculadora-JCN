@@ -54,7 +54,7 @@ namespace Calculadora_JCN
             player?.Dispose();
 
             //de 0 a 2 - 2 é EXCLUSIVO, random gera entre 0 e 1
-            int indice = gerador.Next(0, 11);
+            int indice = gerador.Next(musicas.Count); ;
             audio = new AudioFileReader(musicas[indice]);
             lblmusicaatual.Text = Path.GetFileNameWithoutExtension(musicas[indice]);
 
@@ -71,9 +71,10 @@ namespace Calculadora_JCN
         private void btnplaypause_Click(object sender, EventArgs e)
         {
             if (musicas.Count == 0)
+            {
                 return;
-
-            if (player == null)
+            }
+             if (player == null)
             {
                 CarregarMusicaAtual();
                 player.Play();

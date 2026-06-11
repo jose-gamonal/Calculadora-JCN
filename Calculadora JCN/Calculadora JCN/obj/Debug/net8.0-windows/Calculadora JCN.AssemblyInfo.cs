@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Calculadora JCN")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6ab743958b13c35ca88e3f7e230e0eb51724aec4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+752ba6b91366e6941f0e38d56f85df948f5af0af")]
 [assembly: System.Reflection.AssemblyProductAttribute("Calculadora JCN")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Calculadora JCN")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
