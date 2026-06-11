@@ -471,6 +471,7 @@
             btnhistorico.TabStop = false;
             btnhistorico.Text = "🕐";
             btnhistorico.UseVisualStyleBackColor = true;
+            btnhistorico.Click += btnhistorico_Click;
             // 
             // Form1
             // 

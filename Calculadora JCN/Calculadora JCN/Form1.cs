@@ -375,14 +375,21 @@ namespace Calculadora_JCN
             focus();
         }
 
+        List<string> historico = new List<string>()
+        {
+            "Início"
+        };
+        int ilista = 1;
         public void calc()
         {
             if (txtmain.Text != "")
             {
+                historico.Add(txtmain.Text); 
                 double resdouble = Convert.ToDouble(new DataTable().Compute(txtmain.Text, null));
                 string resultado = resdouble.ToString();
                 resultado = Regex.Replace(resultado, ",", ".");
                 txtmain.Text = resultado;
+                ilista++;
             }
         }
 
@@ -443,11 +450,30 @@ namespace Calculadora_JCN
             }
         }
 
+        
+
+        ContextMenuStrip menu;
+        private void btnhistorico_Click(object sender, EventArgs e)
+        {
+            menu = new ContextMenuStrip();
+            for (int i = historico.Count - 1; i >= 0; i--)
+            {
+                menu.Items.Add($"{historico[ilista]}", null, (sender, e) => clique(ilista));
+            }
+        }
+
+        private void clique(int ilista)
+        {
+            txtmain.Text = historico[ilista];
+        }
+
         private void btncreditos_Click(object sender, EventArgs e)
         {
             MessageBox.Show
                 ("Calculadora JCN\n\nDesenvolvido por:\nJosé Seidel Osorio Gamonal - 6\nCaique Oliveira Gadelha - 3\nNatan Maia De Moraes Alves - 18", "Créditos");
         }
+
+
     }
 }
 
