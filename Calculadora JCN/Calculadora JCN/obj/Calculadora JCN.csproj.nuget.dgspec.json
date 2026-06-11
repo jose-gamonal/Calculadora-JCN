@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\LABSC3\\Desktop\\Calculador_nova_1234\\Calculadora-JCN\\Calculadora JCN\\Calculadora JCN\\Calculadora JCN.csproj": {}
+    "C:\\Users\\LABSC3\\Documents\\GitHub\\Calculadora-JCN\\Calculadora JCN\\Calculadora JCN\\Calculadora JCN.csproj": {}
   },
   "projects": {
-    "C:\\Users\\LABSC3\\Desktop\\Calculador_nova_1234\\Calculadora-JCN\\Calculadora JCN\\Calculadora JCN\\Calculadora JCN.csproj": {
+    "C:\\Users\\LABSC3\\Documents\\GitHub\\Calculadora-JCN\\Calculadora JCN\\Calculadora JCN\\Calculadora JCN.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LABSC3\\Desktop\\Calculador_nova_1234\\Calculadora-JCN\\Calculadora JCN\\Calculadora JCN\\Calculadora JCN.csproj",
+        "projectUniqueName": "C:\\Users\\LABSC3\\Documents\\GitHub\\Calculadora-JCN\\Calculadora JCN\\Calculadora JCN\\Calculadora JCN.csproj",
         "projectName": "Calculadora JCN",
-        "projectPath": "C:\\Users\\LABSC3\\Desktop\\Calculador_nova_1234\\Calculadora-JCN\\Calculadora JCN\\Calculadora JCN\\Calculadora JCN.csproj",
+        "projectPath": "C:\\Users\\LABSC3\\Documents\\GitHub\\Calculadora-JCN\\Calculadora JCN\\Calculadora JCN\\Calculadora JCN.csproj",
         "packagesPath": "C:\\Users\\LABSC3\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LABSC3\\Desktop\\Calculador_nova_1234\\Calculadora-JCN\\Calculadora JCN\\Calculadora JCN\\obj\\",
+        "outputPath": "C:\\Users\\LABSC3\\Documents\\GitHub\\Calculadora-JCN\\Calculadora JCN\\Calculadora JCN\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\LABSC3\\AppData\\Roaming\\NuGet\\NuGet.Config",

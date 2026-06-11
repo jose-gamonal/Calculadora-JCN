@@ -62,7 +62,7 @@
             lblmusicaatual = new Label();
             btnnightmode = new Button();
             lblexpoente = new Label();
-            button10 = new Button();
+            btnhistorico = new Button();
             SuspendLayout();
             // 
             // button0
@@ -461,16 +461,16 @@
             lblexpoente.TabIndex = 36;
             lblexpoente.Text = "^";
             // 
-            // button10
+            // btnhistorico
             // 
-            button10.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button10.Location = new Point(322, 8);
-            button10.Name = "button10";
-            button10.Size = new Size(36, 26);
-            button10.TabIndex = 37;
-            button10.TabStop = false;
-            button10.Text = "🕐";
-            button10.UseVisualStyleBackColor = true;
+            btnhistorico.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnhistorico.Location = new Point(322, 8);
+            btnhistorico.Name = "btnhistorico";
+            btnhistorico.Size = new Size(36, 26);
+            btnhistorico.TabIndex = 37;
+            btnhistorico.TabStop = false;
+            btnhistorico.Text = "🕐";
+            btnhistorico.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -478,7 +478,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.Control;
             ClientSize = new Size(429, 539);
-            Controls.Add(button10);
+            Controls.Add(btnhistorico);
             Controls.Add(lblexpoente);
             Controls.Add(btnnightmode);
             Controls.Add(lblmusicaatual);
@@ -556,6 +556,6 @@
         private Label lblmusicaatual;
         private Button btnnightmode;
         private Label lblexpoente;
-        private Button button10;
+        private Button btnhistorico;
     }
 }

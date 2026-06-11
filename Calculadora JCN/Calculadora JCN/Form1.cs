@@ -31,8 +31,6 @@ namespace Calculadora_JCN
             }
         }
 
-        ////////////// PLAYER
-        ///
         List<string> musicas = new List<string>();
         private WaveOutEvent player;
         private AudioFileReader audio;
@@ -94,7 +92,7 @@ namespace Calculadora_JCN
                 player.Play();
                 btnplaypause.Text = " ⏸";
                 focus();
-                return; //// se não parar o fluxo aqui, ele dá play e logo depois checa abaixo. daí ele vê que tá tocando e pausa de novo, tudo em um segundo.
+                return;
 
             }
 
@@ -111,16 +109,13 @@ namespace Calculadora_JCN
             focus();
         }
 
-
-        ////////////// CALCULADORA
-
         private void txtmain_KeyPress(object sender, KeyPressEventArgs e)
         {
             string permitidos = "0123456789+-*/().";
 
-            if (permitidos.Contains(e.KeyChar) || char.IsControl(e.KeyChar)) // e.KeyChar é o botão pressionado
+            if (permitidos.Contains(e.KeyChar) || char.IsControl(e.KeyChar))
             {
-                e.Handled = false; //deixar passar
+                e.Handled = false;
             }
             else if (e.KeyChar == '=')
             {
@@ -130,7 +125,7 @@ namespace Calculadora_JCN
             }
             else
             {
-                e.Handled = true; //não processar; bloquear
+                e.Handled = true;
             }
         }
 
@@ -148,9 +143,9 @@ namespace Calculadora_JCN
         {
             string permitidos = "0123456789";
 
-            if (permitidos.Contains(e.KeyChar) || char.IsControl(e.KeyChar)) // e.KeyChar é o botão pressionado
+            if (permitidos.Contains(e.KeyChar) || char.IsControl(e.KeyChar))
             {
-                e.Handled = false; //deixar passar
+                e.Handled = false;
             }
             else if (e.KeyChar == '=')
             {
@@ -160,7 +155,7 @@ namespace Calculadora_JCN
             }
             else
             {
-                e.Handled = true; //não processar; bloquear
+                e.Handled = true;
             }
         }
 
@@ -220,7 +215,7 @@ namespace Calculadora_JCN
                     indice = Convert.ToDouble(txtexpoente.Text);
                 }
 
-                numero = Math.Pow(numero, 1 / indice); //Matematicamente, calcular uma raiz é o mesmo que elevar um número à potência do inverso do índice
+                numero = Math.Pow(numero, 1 / indice);
 
                 txtmain.Text = Regex.Replace(
                     txtmain.Text,
@@ -453,19 +448,6 @@ namespace Calculadora_JCN
             MessageBox.Show
                 ("Calculadora JCN\n\nDesenvolvido por:\nJosé Seidel Osorio Gamonal - 6\nCaique Oliveira Gadelha - 3\nNatan Maia De Moraes Alves - 18", "Créditos");
         }
-
-
-
-        ////////////// HISTÓRICO
-        ///
-
-
-        //lista que aumenta de tamanho
-        //        List<string> historico = new List<string>();
-        //historico.Add("33+34");
-        //for (int i = historico.Count - 1; i >= 0; i--)
-        //{Console.WriteLine(historico[i]);}
-
     }
 }
 
