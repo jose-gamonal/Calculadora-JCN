@@ -1,12 +1,6 @@
-using Microsoft.VisualBasic.Devices;
 using NAudio.Wave;
-using System;
-using System.Collections.Generic;
 using System.Data;
-using System.Numerics;
-using System.Reflection.Emit;
 using System.Text.RegularExpressions;
-using static System.Net.Mime.MediaTypeNames;
 namespace Calculadora_JCN
 
 {
@@ -36,8 +30,6 @@ namespace Calculadora_JCN
         private WaveOutEvent player;
         private AudioFileReader audio;
         Random gerador = new Random();
-        private WaveOutEvent playerResultado;
-        private AudioFileReader audioResultado;
 
         private void CarregarMusicas()
         {
@@ -46,15 +38,22 @@ namespace Calculadora_JCN
             musicas = Directory.GetFiles(pasta, "*.mp3").ToList();
         }
 
+        private int indiceanterior;
+        private int indice;
         private void CarregarMusicaAtual()
         {
+            indiceanterior = indice;
+
             player?.Stop();
 
             audio?.Dispose();
             player?.Dispose();
 
-            //de 0 a 2 - 2 é EXCLUSIVO, random gera entre 0 e 1
-            int indice = gerador.Next(musicas.Count); 
+            while (indice == indiceanterior)
+            {
+                indice = gerador.Next(0, musicas.Count);
+            }
+
             audio = new AudioFileReader(musicas[indice]);
             lblmusicaatual.Text = Path.GetFileNameWithoutExtension(musicas[indice]);
 
@@ -62,10 +61,13 @@ namespace Calculadora_JCN
             player.Init(audio);
         }
 
+
         private void btntrocarmusica_Click(object sender, EventArgs e)
         {
             CarregarMusicaAtual();
             player.Play();
+            btnplaypause.Text = " ⏸";
+            focus();
         }
 
         private void btnplaypause_Click(object sender, EventArgs e)
@@ -74,11 +76,14 @@ namespace Calculadora_JCN
             {
                 return;
             }
-             if (player == null)
+            if (player == null)
             {
                 CarregarMusicaAtual();
                 player.Play();
                 btnplaypause.Text = " ⏸";
+                focus();
+                return; //// se não parar o fluxo aqui, ele dá play e logo depois checa abaixo. daí ele vê que tá tocando e pausa de novo, tudo em um segundo.
+
             }
 
             if (player.PlaybackState == PlaybackState.Playing)
@@ -91,6 +96,7 @@ namespace Calculadora_JCN
                 player.Play();
                 btnplaypause.Text = " ⏸";
             }
+            focus();
         }
 
 
@@ -393,47 +399,50 @@ namespace Calculadora_JCN
         private bool modoEscuro = false;
         private void btnnightmode_Click(object sender, EventArgs e)
         {
+            focus();
             if (!modoEscuro)
             {
                 this.BackColor = Color.FromArgb(24, 24, 24);
                 txtmain.BackColor = Color.FromArgb(40, 40, 40);
                 txtmain.ForeColor = Color.White;
+                lbltitulo.ForeColor = Color.White;
+                txtexpoente.BackColor = Color.FromArgb(50, 50, 50);
+                lblmusicaatual.ForeColor = Color.White;
 
-                foreach (Control c in this.Controls)
+                foreach (Control controles in this.Controls)
                 {
-                    if (c is Button)
+                    if (controles is Button)
                     {
-                        c.BackColor = Color.FromArgb(50, 50, 50);
-                        c.ForeColor = Color.White;
+                        controles.BackColor = Color.FromArgb(50, 50, 50);
+                        controles.ForeColor = Color.White;
                     }
-                    lbltitulo.ForeColor = Color.White;
-                    txtexpoente.BackColor = Color.FromArgb(50, 50, 50);
-                    c.ForeColor = Color.White;
-
                 }
 
                 modoEscuro = true;
+                return;
             }
             else
             {
-                this.BackColor = SystemColors.Control;
-
+                this.BackColor = Color.White;
                 txtmain.BackColor = Color.White;
                 txtmain.ForeColor = Color.Black;
                 lbltitulo.ForeColor = Color.Black;
-                foreach (Control c in this.Controls)
+                txtexpoente.BackColor = Color.White;
+                lblmusicaatual.ForeColor = Color.Black;
+
+
+                foreach (Control controles in this.Controls)
                 {
-                    if (c is Button)
+                    if (controles is Button)
                     {
-                        c.BackColor = SystemColors.Control;
-                        c.ForeColor = Color.Black;
+                        controles.BackColor = Color.White;
+                        controles.ForeColor = Color.Black;
                     }
-                    lblmusicaatual.ForeColor = Color.Black;
-                    txtexpoente.BackColor = Color.White;
-                    c.ForeColor = Color.Black;
+
                 }
 
                 modoEscuro = false;
+                return;
             }
         }
 
